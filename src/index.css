@@ -21,3 +21,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.union {
+  width: 100%;
+  padding-top: 78px;
+}
