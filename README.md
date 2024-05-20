@@ -1,11 +1,48 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+
+Ensure you have the following installed:
+
+- [x] Node.js (version 14.x or later)
+- [x] npm (version 6.x or later) or yarn (version 1.x or later)
+
+## Installation
+
+1. Clone the repository:
+
+```javascript
+git clone https://github.com/Willochs316/React.Js-Evaluation-Round-2.git
+cd React.Js-Evaluation-Round-2
+```
+
+2. Install dependencies:
+
+```javascript
+npm install
+```
+
+## Running the Development Server
+
+To start the development server, run:
+
+Using npm:
+
+```js
+npm run dev
+```
+
+The application will be available at http://localhost:5173/.
+
+## Features
+
+- Responsive Design: Optimized for various screen sizes.
+- Fast Development: Utilizes Vite for rapid development.
+- Component-Based: Modular and reusable components.
 
 ## Expanding the ESLint configuration
 
@@ -17,12 +54,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
