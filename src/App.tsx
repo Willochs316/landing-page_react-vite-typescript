@@ -1,4 +1,5 @@
 import Images from "@assets/images";
+import Talents from "@components/Talents/Talents";
 import Header from "@layouts/Header/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <img className="union" src={Images.union} alt="" />
+      <Talents />
     </>
   );
 }
