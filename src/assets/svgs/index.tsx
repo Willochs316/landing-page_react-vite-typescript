@@ -1,7 +1,3 @@
-import { ReactComponent as Header } from "./header.svg";
+import Zwilt from "./zwilt.svg";
 
-const Svgs = {
-  Header,
-};
-
-export default Svgs;
+export { Zwilt };
