@@ -28,6 +28,7 @@ const Images = {
   quote: new URL("./quote.png", import.meta.url).href,
   groove: new URL("./groove.png", import.meta.url).href,
   jason: new URL("./jason.png", import.meta.url).href,
+  groovehq: new URL("./groovehq.png", import.meta.url).href,
 };
 
 export default Images;

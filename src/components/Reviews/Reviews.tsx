@@ -33,6 +33,32 @@ const Reviews: React.FC = () => {
             </button>
           </div>
         </div>
+
+        <div className="review-content">
+          <div className="review-info-header">
+            <div className="review-image-container">
+              <img className="review-imagehq" src={Images.groovehq} alt="" />
+            </div>
+
+            <div className="review-info-head-content">
+              <div className="">
+                <h2 className="review-info-heading">Jason Makki</h2>
+                <p className="review-info-tile">Engineer at GROOVE</p>
+              </div>
+
+              <p className="review-info-tile">San Francisco</p>
+            </div>
+          </div>
+
+          <div className="review-info-descr-container">
+            <p className="review-info-descr">
+              Zwilt enabled us to deliver on time and they&apos;ve been heavy
+              hitters in our corner since. Zwilt enabled us to deliver on time
+              and they&apos;ve been heavy hitters in our corner since.Zwilt
+              enabled us to deliver on time and they&apos;ve been heavy hitters.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

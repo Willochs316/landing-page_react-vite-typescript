@@ -164,6 +164,12 @@
   cursor: pointer;
 }
 
+.explore-btn {
+  width: 74px;
+  height: 74px;
+  appearance: button;
+}
+
 .explore-more-text {
   font-size: 22px;
   font-weight: 500;

@@ -168,7 +168,7 @@ const Information: React.FC = () => {
 
       <div className="information-container explore">
         <div className="explore-conent">
-          <img className="" src={Images.roundZwilt} alt="" />
+          <img className="explore-btn" src={Images.roundZwilt} alt="" />
           <p className="explore-text">Explore More</p>
         </div>
 
