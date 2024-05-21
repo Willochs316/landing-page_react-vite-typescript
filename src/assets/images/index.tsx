@@ -20,6 +20,10 @@ const Images = {
   category: new URL("./category.png", import.meta.url).href,
   profile: new URL("./profile.png", import.meta.url).href,
   roundZwilt: new URL("./round-zwilt.png", import.meta.url).href,
+  footerBg: new URL("./footer-bg.png", import.meta.url).href,
+  footerRect: new URL("./footer-rectangle.png", import.meta.url).href,
+  zwiltDown: new URL("./zwilt-down.png", import.meta.url).href,
+  footerZwilt: new URL("./footer-logo.png", import.meta.url).href,
 };
 
 export default Images;
