@@ -16,13 +16,13 @@ const Header: React.FC = () => {
       <div className="header-container">
         <NavBar />
 
-        <div className="header-title">
+        <h2 className="header-title">
           Finding the right fit{" "}
           <span>
             <img src={Images.zwilt} />
           </span>{" "}
           has never been easier.
-        </div>
+        </h2>
 
         <p className="header-content">
           With our rigorous pre-vetting process, you'll never have to worry
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
 
         <form className="header-form">
           {inputValue === "" && (
-            <div className="placeholder-wrapper">
+            <div className="placeholder-container">
               <span className="text-darker-gray">Looking for</span>&nbsp;
               <span className="text-gray"> design |</span>
             </div>
