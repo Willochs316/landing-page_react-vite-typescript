@@ -1,6 +1,7 @@
 import Images from "@assets/images";
 import Information from "@components/Information/Information";
 import Reviews from "@components/Reviews/Reviews";
+import Strategy from "@components/Strategy/Strategy";
 import Faq from "@layouts/Faq/Faq";
 import Footer from "@layouts/Footer/Footer";
 import Header from "@layouts/Header/Header";
@@ -12,6 +13,7 @@ function App() {
       <img className="union" src={Images.union} alt="" />
       <Information />
       <Reviews />
+      <Strategy />
       <Faq />
       <Footer />
     </>

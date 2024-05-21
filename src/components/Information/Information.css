@@ -5,15 +5,14 @@
   max-width: 1440px;
   width: 100%;
   background: #edefff;
-  /* background: url("../../assets/images/rectangle.png"); */
   position: relative;
+  padding-top: 183px;
 }
 
 .information-header {
   max-width: 977px;
   width: 100%;
   text-align: center;
-  padding-top: 183px;
 }
 
 .information-header-title {
