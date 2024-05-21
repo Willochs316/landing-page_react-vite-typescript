@@ -1,6 +1,6 @@
 import "./Service.css";
 
-const ItDepartment: React.FC = () => {
+const Service: React.FC = () => {
   return (
     <div className="service">
       <div className="service-container">
@@ -61,4 +61,4 @@ const ItDepartment: React.FC = () => {
   );
 };
 
-export default ItDepartment;
+export default Service;
