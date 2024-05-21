@@ -25,6 +25,9 @@ const Images = {
   zwiltDown: new URL("./zwilt-down.png", import.meta.url).href,
   footerZwilt: new URL("./footer-logo.png", import.meta.url).href,
   yellowZwilt: new URL("./zwilt-yellow.png", import.meta.url).href,
+  quote: new URL("./quote.png", import.meta.url).href,
+  groove: new URL("./groove.png", import.meta.url).href,
+  jason: new URL("./jason.png", import.meta.url).href,
 };
 
 export default Images;
