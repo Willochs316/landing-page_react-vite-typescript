@@ -1,16 +1,33 @@
+import { useState } from "react";
 import "./Service.css";
 
 const Service: React.FC = () => {
+  const [activeService, setActiveService] = useState<string>("IT");
+
+  const toggleActiveService = (service: string) => {
+    setActiveService(service);
+  };
+
   return (
     <div className="service">
       <div className="service-container">
         <div className="service-header">
           <div className="service-tagline">
-            <div className="service-info active">
+            <div
+              className={`service-info ${
+                activeService === "IT" ? "active" : ""
+              }`}
+              onClick={() => toggleActiveService("IT")}
+            >
               <p className="service-title">IT & Development</p>
             </div>
 
-            <div className="service-design">
+            <div
+              className={`service-design ${
+                activeService === "Design" ? "active" : ""
+              }`}
+              onClick={() => toggleActiveService("Design")}
+            >
               <p className="service-title">Design and Creative</p>
             </div>
           </div>
