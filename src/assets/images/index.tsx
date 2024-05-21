@@ -31,6 +31,9 @@ const Images = {
   groovehq: new URL("./groovehq.png", import.meta.url).href,
   play: new URL("./play.png", import.meta.url).href,
   bluePlay: new URL("./blue-play.png", import.meta.url).href,
+  blueGroup: new URL("./blue-group.png", import.meta.url).href,
+  yellowGroup: new URL("./yellow-group.png", import.meta.url).href,
+  whiteGroup: new URL("./white-group.png", import.meta.url).href,
 };
 
 export default Images;
