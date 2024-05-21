@@ -65,7 +65,7 @@
   padding-top: 20px;
 }
 
-.information-category__items {
+.information-items {
   display: flex;
   align-items: center;
 }
@@ -128,4 +128,46 @@
   font-weight: 600;
   line-height: 18px;
   text-align: center;
+}
+
+.explore {
+  padding-top: 14px;
+  width: 100%;
+}
+
+.explore-conent {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.explore-text {
+  padding-left: 12px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #202229;
+}
+
+.explore-more {
+  max-width: 730px;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  appearance: button;
+  outline: none;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.explore-more-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #202229cc;
 }

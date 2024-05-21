@@ -19,12 +19,12 @@ const Information: React.FC = () => {
           </div>
 
           <div className="information-category">
-            <div className="information-category__items">
+            <div className="information-items">
               <img src={Images.medal} alt="" />
               <p className="information-category__description">989 Skills</p>
             </div>
 
-            <div className="information-category__items">
+            <div className="information-items">
               <img src={Images.category} alt="" />
               <p className="information-category__description">
                 45 Sub-Categories
@@ -33,7 +33,7 @@ const Information: React.FC = () => {
           </div>
 
           <div className="information-category">
-            <div className="information-category__items">
+            <div className="information-items">
               <img src={Images.profile} alt="" />
               <p className="information-category__description">1011 Profiles</p>
             </div>
@@ -100,12 +100,12 @@ const Information: React.FC = () => {
           </div>
 
           <div className="information-category">
-            <div className="information-category__items">
+            <div className="information-items">
               <img src={Images.medal} alt="" />
               <p className="information-category__description">989 Skills</p>
             </div>
 
-            <div className="information-category__items">
+            <div className="information-items">
               <img src={Images.category} alt="" />
               <p className="information-category__description">
                 45 Sub-Categories
@@ -114,7 +114,7 @@ const Information: React.FC = () => {
           </div>
 
           <div className="information-category">
-            <div className="information-category__items">
+            <div className="information-items">
               <img src={Images.profile} alt="" />
               <p className="information-category__description">1011 Profiles</p>
             </div>
@@ -164,6 +164,17 @@ const Information: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="information-container explore">
+        <div className="explore-conent">
+          <img className="" src={Images.roundZwilt} alt="" />
+          <p className="explore-text">Explore More</p>
+        </div>
+
+        <button className="explore-more">
+          30 more <span className="explore-more-text">to explore</span>
+        </button>
       </div>
     </section>
   );
