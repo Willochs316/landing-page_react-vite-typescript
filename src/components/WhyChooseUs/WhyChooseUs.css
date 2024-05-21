@@ -1,0 +1,39 @@
+.why-choose {
+  max-width: 100%;
+  width: 100%;
+  padding-top: 187px;
+  padding-bottom: 186px;
+  padding-left: 70px;
+}
+
+.why-choose-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.why-choose-descr {
+  width: 380px;
+}
+
+.why-choose-header {
+  max-width: 380px;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+}
+
+.why-choose-descr-container {
+  max-width: 326px;
+  padding-top: 37px;
+}
+
+.why-choose-descr-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #202229cc;
+}
