@@ -34,7 +34,7 @@ const Reviews: React.FC = () => {
           </div>
         </div>
 
-        <div className="review-content">
+        <div className="review-content review-cont">
           <div className="review-info-header">
             <div className="review-image-container">
               <img className="review-imagehq" src={Images.groovehq} alt="" />

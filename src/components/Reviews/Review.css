@@ -11,10 +11,10 @@
 .reviews-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 100%;
   width: 100%;
-  padding: 0 70px;
+  /* padding: 0 70px; */
   position: relative;
 }
 
@@ -32,6 +32,10 @@
 }
 
 .review-content {
+  margin: 0;
+}
+
+.review-cont {
   margin: 0;
 }
 
@@ -91,6 +95,7 @@
   display: flex;
   align-items: center;
 }
+
 .review-info-head-content {
   padding-left: 16.21px;
   margin: 0;
