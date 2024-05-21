@@ -34,6 +34,7 @@ const Images = {
   blueGroup: new URL("./blue-group.png", import.meta.url).href,
   yellowGroup: new URL("./yellow-group.png", import.meta.url).href,
   whiteGroup: new URL("./white-group.png", import.meta.url).href,
+  frm: new URL("./frm.png", import.meta.url).href,
 };
 
 export default Images;

@@ -1,3 +1,4 @@
+import Images from "@assets/images";
 import "./WhyChooseUs.css";
 
 const WhyChooseUs: React.FC = () => {
@@ -13,6 +14,10 @@ const WhyChooseUs: React.FC = () => {
               you to the world&apos;s highly qualified talent pool.
             </p>
           </div>
+        </div>
+
+        <div className="">
+          <img src={Images.frm} alt="" />
         </div>
       </div>
     </section>

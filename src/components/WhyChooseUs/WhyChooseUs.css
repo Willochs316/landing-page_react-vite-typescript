@@ -4,10 +4,12 @@
   padding-top: 187px;
   padding-bottom: 186px;
   padding-left: 70px;
+  padding-right: 0;
 }
 
 .why-choose-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   overflow-x: auto;
@@ -36,4 +38,9 @@
   line-height: 32px;
   text-align: left;
   color: #202229cc;
+}
+
+.s {
+  width: 1300px;
+  box-shadow: 0px 15px 30px 0px #bfb5ff26;
 }
