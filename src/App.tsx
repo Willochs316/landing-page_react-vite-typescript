@@ -1,6 +1,7 @@
 import Images from "@assets/images";
 import Information from "@components/Information/Information";
 import Reviews from "@components/Reviews/Reviews";
+import Start from "@components/Start/Start";
 import Strategy from "@components/Strategy/Strategy";
 import Faq from "@layouts/Faq/Faq";
 import Footer from "@layouts/Footer/Footer";
@@ -14,6 +15,7 @@ function App() {
       <Information />
       <Reviews />
       <Strategy />
+      <Start />
       <Faq />
       <Footer />
     </>
