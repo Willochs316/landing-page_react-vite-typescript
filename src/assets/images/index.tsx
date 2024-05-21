@@ -24,6 +24,7 @@ const Images = {
   footerRect: new URL("./footer-rectangle.png", import.meta.url).href,
   zwiltDown: new URL("./zwilt-down.png", import.meta.url).href,
   footerZwilt: new URL("./footer-logo.png", import.meta.url).href,
+  yellowZwilt: new URL("./zwilt-yellow.png", import.meta.url).href,
 };
 
 export default Images;
