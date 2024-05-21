@@ -105,6 +105,24 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
+
+        <div className="footer-bottom">
+          <div className="footer-bottom-content">
+            <div className="footer-rights">
+              <p className="footer-rights-text">All rights reserved by Zwilt</p>
+            </div>
+
+            <div className="footer-privacy">
+              <a href="/" className="footer-privacy-text">
+                Privacy Policy
+              </a>
+
+              <a href="/" className="footer-privacy-text privacy-left">
+                Terms and Conditions
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
