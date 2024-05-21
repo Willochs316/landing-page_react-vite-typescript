@@ -1,5 +1,5 @@
 import Images from "@assets/images";
-// import Information from "@components/Information/Information";
+import Information from "@components/TechStack/TechStack";
 // import Reviews from "@components/Reviews/Reviews";
 // import Start from "@components/Start/Start";
 // import Strategy from "@components/Strategy/Strategy";
@@ -13,7 +13,8 @@ function App() {
     <>
       <Header />
       <img className="union" src={Images.union} alt="" />
-      {/* <Information />
+      <Information />
+      {/* 
       <Reviews />
       <Strategy />
       <Start />

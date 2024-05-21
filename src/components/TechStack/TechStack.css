@@ -1,28 +1,36 @@
-.information {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.services-tech-stack {
   max-width: 1440px;
   width: 100%;
   background: #edefff;
   position: relative;
-  padding-top: 183px;
+  /* padding-top: 183px; */
 }
 
-.information-header {
+.services-tech-stack-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 183px;
+  padding-bottom: 127px;
+  position: relative;
+}
+
+.services-tech-stack-header {
   max-width: 977px;
   width: 100%;
   text-align: center;
 }
 
-.information-header-title {
+.services-tech-stack-header-title {
   font-size: 54px;
   font-weight: 700;
   line-height: 64px;
   text-align: center;
 }
 
-.information-container {
+.services-tech-stack-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,37 +46,37 @@
   padding-top: 30px;
 }
 
-.information-content {
+.services-tech-stack-content {
   display: flex;
   flex-direction: column;
 }
 
-.information-category__heading {
+.services-tech-stack__heading {
   max-width: 380px;
   width: 100%;
   text-align: left;
 }
 
-.information-category__heading-title {
+.services-tech-stack__heading-title {
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
   text-align: left;
 }
 
-.information-category {
+.services-tech-stack-rate-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
 }
 
-.information-items {
+.services-tech-stack-rate-items {
   display: flex;
   align-items: center;
 }
 
-.information-category__description {
+.services-tech-stack-rate {
   padding-left: 8px;
   font-size: 16px;
   font-weight: 400;
@@ -99,7 +107,7 @@
   line-height: 23.78px;
 }
 
-.information__tech-stack-content {
+.services-tech-stack-menu {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -108,18 +116,19 @@
   padding-left: 28px;
 }
 
-.information__tech-stack-item {
+.services-tech-stack-menu-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .tech-stack-item {
   padding-left: 20px;
 }
 
-.information__tech-stack-title {
+.services-tech-stack-menu-title {
   padding-top: 12px;
   width: 81px;
   font-size: 14px;
@@ -130,7 +139,7 @@
 
 .explore {
   padding-top: 14px;
-  padding-bottom: 127px;
+  /* padding-bottom: 127px; */
   width: 100%;
 }
 
