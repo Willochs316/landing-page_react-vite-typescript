@@ -5,7 +5,7 @@ import Start from "@components/Start/Start";
 import Strategy from "@components/Strategy/Strategy";
 // import WhyChooseUs from "@components/WhyChooseUs/WhyChooseUs";
 // import Faq from "@layouts/Faq/Faq";
-// import Footer from "@layouts/Footer/Footer";
+import Footer from "@layouts/Footer/Footer";
 import Header from "@layouts/Header/Header";
 
 function App() {
@@ -20,7 +20,8 @@ function App() {
       {/* 
       <WhyChooseUs />
       <Faq />
-      <Footer /> */}
+      */}
+      <Footer />
     </>
   );
 }

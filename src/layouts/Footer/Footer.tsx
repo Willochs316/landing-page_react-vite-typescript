@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer: React.FC = () => {
   return (
     <section className="footer">
-      <img className="footer-bg" src={Images.footerBg} alt="" />
+      {/* <img className="footer-bg" src={Images.footerBg} alt="" /> */}
       <div className="foooter-container">
         <div className="footer-content">
           <div className="footer-heading">
@@ -14,14 +14,14 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="footer-form">
-            <img src={Images.zwiltDown} alt="" />
+            <img className="footer-icon" src={Images.zwiltDown} alt="" />
           </div>
         </div>
 
         <div className="footer-main-inner">
           <div className="footer-company">
             <div className="footer-company-content">
-              <img src={Images.footerZwilt} alt="" />
+              <img className="footer-logo" src={Images.footerZwilt} alt="" />
 
               <p className="footer-company-descr">
                 We take complex hiring processes - and simplify them. Connecting
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
                 <p className="footer-menu-title">PLATFORM</p>
 
                 <ul className="footer-menu-items">
-                  <li className="footer-menu-list active">Find Work</li>
+                  <li className="footer-menu-list isActive">Find Work</li>
 
                   <li className="footer-menu-list footer-menu-lt">
                     Find Talent
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
               </div>
 
               <div className="footer-menu">
-                <p className="footer-menu-title">CATEGORIES</p>
+                <p className="footer-menu-title footer-menu-tl">CATEGORIES</p>
 
                 <ul className="footer-menu-items">
                   <li className="footer-menu-list">Data Science</li>
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
               </div>
 
               <div className="footer-menu">
-                <p className="footer-menu-title">HELP</p>
+                <p className="footer-menu-title footer-menu-tl">HELP</p>
 
                 <ul className="footer-menu-items">
                   <li className="footer-menu-list">FAQ&apos;s</li>
@@ -93,7 +93,9 @@ const Footer: React.FC = () => {
               </div>
 
               <div className="footer-menu">
-                <p className="footer-menu-title">GET IN TOUCH @</p>
+                <p className="footer-menu-title footer-menu-tl">
+                  GET IN TOUCH @
+                </p>
 
                 <ul className="footer-menu-items">
                   <li className="footer-menu-list">Instagram</li>
