@@ -1,7 +1,11 @@
 import Images from "@assets/images";
+import { designTechStackItems, rateItems, techStackItems } from "./TechData";
+import TechStackMenuItem from "./TechStackMenuItem";
+import DesignTechStackMenuItem from "./DesignStackMenuItem";
+import RateItem from "./RateItem";
 import "./TechStack.css";
 
-const Information: React.FC = () => {
+export default function TechStack() {
   return (
     <section className="services-tech-stack">
       <div className="services-tech-stack-section">
@@ -20,92 +24,34 @@ const Information: React.FC = () => {
               </span>
             </div>
 
-            <div className="services-tech-stack-rate-container">
-              <div className="services-tech-stack-rate-items">
-                <img src={Images.medal} alt="" />
-                <p className="services-tech-stack-rate">989 Skills</p>
+            <div>
+              <div className="services-tech-stack-rate-container">
+                {rateItems.slice(0, 2).map((item, index) => (
+                  <RateItem key={index} src={item.src} text={item.text} />
+                ))}
               </div>
-
-              <div className="services-tech-stack-rate-items">
-                <img src={Images.category} alt="" />
-                <p className="services-tech-stack-rate">45 Sub-Categories</p>
-              </div>
-            </div>
-
-            <div className="services-tech-stack-rate-container">
-              <div className="services-tech-stack-rate-items">
-                <img src={Images.profile} alt="" />
-                <p className="services-tech-stack-rate">1011 Profiles</p>
+              <div className="services-tech-stack-rate-container">
+                <RateItem src={rateItems[2].src} text={rateItems[2].text} />
               </div>
             </div>
           </div>
 
-          {/* tech stack */}
           <div className="services-tech-stack-main">
             <div className="services-tech-stack-main-header">
-              <span className="">IT & Development</span>
+              <span>IT & Development</span>
             </div>
-
             <div className="services-tech-stack-menu">
-              <div className="services-tech-stack-menu-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.shopify}
-                  alt=""
+              {techStackItems.map((item, index) => (
+                <TechStackMenuItem
+                  key={index}
+                  src={item.src}
+                  title={item.title}
+                  extraClass={item.extraClass}
                 />
-                <span className="services-tech-stack-menu-title">
-                  Shopify Developer
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.magento}
-                  alt=""
-                />
-                <span className="services-tech-stack-menu-title">
-                  Magento Developer
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img className="services-tech-image" src={Images.data} alt="" />
-                <span className="services-tech-stack-menu-title">
-                  Data Scientist
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.webflow}
-                  alt=""
-                />
-                <span className="services-tech-stack-menu-title">
-                  Webflow Developer
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img className="services-tech-image" src={Images.dot} alt="" />
-                <span className="services-tech-stack-menu-title">
-                  Dot Net Developer
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.rightZwilt}
-                  alt=""
-                />
-              </div>
+              ))}
             </div>
           </div>
         </div>
-
-        {/* design */}
 
         <div className="services-tech-stack-container info-inner">
           <div className="services-tech-stack-content">
@@ -115,91 +61,31 @@ const Information: React.FC = () => {
               </span>
             </div>
 
-            <div className="services-tech-stack-rate-container">
-              <div className="services-tech-stack-rate-items">
-                <img src={Images.medal} alt="" />
-                <p className="services-tech-stack-rate">989 Skills</p>
+            <div>
+              <div className="services-tech-stack-rate-container">
+                {rateItems.slice(0, 2).map((item, index) => (
+                  <RateItem key={index} src={item.src} text={item.text} />
+                ))}
               </div>
-
-              <div className="services-tech-stack-rate-items">
-                <img src={Images.category} alt="" />
-                <p className="services-tech-stack-rate">45 Sub-Categories</p>
-              </div>
-            </div>
-
-            <div className="services-tech-stack-rate-container">
-              <div className="services-tech-stack-rate-items">
-                <img src={Images.profile} alt="" />
-                <p className="services-tech-stack-rate">1011 Profiles</p>
+              <div className="services-tech-stack-rate-container">
+                <RateItem src={rateItems[2].src} text={rateItems[2].text} />
               </div>
             </div>
           </div>
 
-          {/* tech stack */}
           <div className="services-tech-stack-main">
             <div className="services-tech-stack-main-header">
-              <span className="">Design & Creative</span>
+              <span>Design & Creative</span>
             </div>
-
             <div className="services-tech-stack-menu">
-              <div className="services-tech-stack-menu-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.leftZwilt}
-                  alt=""
+              {designTechStackItems.map((item, index) => (
+                <DesignTechStackMenuItem
+                  key={index}
+                  src={item.src}
+                  title={item.title}
+                  extraClass={item.extraClass}
                 />
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.figma}
-                  alt=""
-                />
-                <span className="services-tech-stack-menu-title">
-                  UX Designer
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.photoShop}
-                  alt=""
-                />
-                <span className="services-tech-stack-menu-title">
-                  Graphics Designer
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img className="services-tech-image" src={Images.ai} alt="" />
-                <span className="services-tech-stack-menu-title">
-                  Illustration Artist
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.unreal}
-                  alt=""
-                />
-                <span className="services-tech-stack-menu-title">
-                  Unreal Engine
-                </span>
-              </div>
-
-              <div className="services-tech-stack-menu-item tech-stack-item">
-                <img
-                  className="services-tech-image"
-                  src={Images.cinema}
-                  alt=""
-                />
-                <span className="services-tech-stack-menu-title">
-                  Cinema 4D
-                </span>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -217,6 +103,4 @@ const Information: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Information;
+}
