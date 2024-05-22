@@ -12,7 +12,7 @@ const Information: React.FC = () => {
           </span>
         </h2>
 
-        <div className="services-tech-stack-container info">
+        <div className="services-tech-stack-container">
           <div className="services-tech-stack-content">
             <div className="services-tech-stack__heading">
               <span className="services-tech-stack__heading-title">
@@ -41,49 +41,65 @@ const Information: React.FC = () => {
           </div>
 
           {/* tech stack */}
-          <div className="information__tech-stack">
-            <div className="information__tech-stack-header">
+          <div className="services-tech-stack-main">
+            <div className="services-tech-stack-main-header">
               <span className="">IT & Development</span>
             </div>
 
             <div className="services-tech-stack-menu">
               <div className="services-tech-stack-menu-item">
-                <img src={Images.shopify} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.shopify}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   Shopify Developer
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.magento} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.magento}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   Magento Developer
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.data} alt="" />
+                <img className="services-tech-image" src={Images.data} alt="" />
                 <span className="services-tech-stack-menu-title">
                   Data Scientist
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.webflow} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.webflow}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   Webflow Developer
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.dot} alt="" />
+                <img className="services-tech-image" src={Images.dot} alt="" />
                 <span className="services-tech-stack-menu-title">
                   Dot Net Developer
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.rightZwilt} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.rightZwilt}
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -120,46 +136,66 @@ const Information: React.FC = () => {
           </div>
 
           {/* tech stack */}
-          <div className="information__tech-stack">
-            <div className="information__tech-stack-header">
+          <div className="services-tech-stack-main">
+            <div className="services-tech-stack-main-header">
               <span className="">Design & Creative</span>
             </div>
 
             <div className="services-tech-stack-menu">
               <div className="services-tech-stack-menu-item">
-                <img src={Images.leftZwilt} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.leftZwilt}
+                  alt=""
+                />
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.figma} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.figma}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   UX Designer
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.photoShop} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.photoShop}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   Graphics Designer
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.ai} alt="" />
+                <img className="services-tech-image" src={Images.ai} alt="" />
                 <span className="services-tech-stack-menu-title">
                   Illustration Artist
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.unreal} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.unreal}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   Unreal Engine
                 </span>
               </div>
 
               <div className="services-tech-stack-menu-item tech-stack-item">
-                <img src={Images.cinema} alt="" />
+                <img
+                  className="services-tech-image"
+                  src={Images.cinema}
+                  alt=""
+                />
                 <span className="services-tech-stack-menu-title">
                   Cinema 4D
                 </span>
