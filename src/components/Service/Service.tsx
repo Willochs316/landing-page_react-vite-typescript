@@ -49,7 +49,7 @@ const Service: React.FC = () => {
 
           {/*  */}
 
-          <ul className="service-menu-items service-menu-items-con">
+          <ul className="service-menu-items service-menu-small">
             <li className="service-menu-item">Data Scientist</li>
             <li className="service-menu-item service-list">
               Front End Developer
@@ -62,7 +62,7 @@ const Service: React.FC = () => {
 
           {/*  */}
 
-          <ul className="service-menu-items">
+          <ul className="service-menu-items service-menu-small">
             <li className="service-menu-item">Shopify Developer</li>
             <li className="service-menu-item service-list">Python Developer</li>
             <li className="service-menu-item service-list">
