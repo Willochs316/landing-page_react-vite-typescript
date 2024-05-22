@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { serviceMenus } from "./ServiceData";
 import "./Service.css";
 
 const Service: React.FC = () => {
@@ -34,44 +35,20 @@ const Service: React.FC = () => {
         </div>
 
         <div className="service-menu">
-          <ul className="service-menu-items">
-            <li className="service-menu-item">Python Developer</li>
-            <li className="service-menu-item service-list">
-              Shopify Developer
-            </li>
-            <li className="service-menu-item service-list acive">
-              MERN Stack Developer
-            </li>
-            <li className="service-menu-item service-list">
-              Full Stack Developer
-            </li>
-          </ul>
-
-          {/*  */}
-
-          <ul className="service-menu-items service-menu-small">
-            <li className="service-menu-item">Data Scientist</li>
-            <li className="service-menu-item service-list">
-              Front End Developer
-            </li>
-            <li className="service-menu-item service-list">
-              Front End Developer
-            </li>
-            <li className="service-menu-item service-list">Python Developer</li>
-          </ul>
-
-          {/*  */}
-
-          <ul className="service-menu-items service-menu-small">
-            <li className="service-menu-item">Shopify Developer</li>
-            <li className="service-menu-item service-list">Python Developer</li>
-            <li className="service-menu-item service-list">
-              Full Stack Developer
-            </li>
-            <li className="service-menu-item service-list acive">
-              Explore More
-            </li>
-          </ul>
+          {serviceMenus.map((menu, index) => (
+            <ul className={`${menu.mainClass} ${menu.subClass}`} key={index}>
+              {menu.items.map((item, itemIndex) => (
+                <li
+                  className={`service-menu-item ${menu.listClass}
+                  ${item.activeItem ? "activeItem" : ""}
+                  `}
+                  key={itemIndex}
+                >
+                  {item.text}
+                </li>
+              ))}
+            </ul>
+          ))}
         </div>
       </div>
     </div>

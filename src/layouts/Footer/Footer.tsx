@@ -46,9 +46,10 @@ export default function Footer() {
           </div>
 
           <div className="footer-connect">
-            <p className="footer-connect-title">
-              Connecting the right people to the right businesses.
-            </p>
+            <Typography
+              className="footer-connect-title"
+              text="Connecting the right people to the right businesses."
+            />
             <div className="footer-menu-container">
               {menuData.map((menu, index) => (
                 <div className="footer-menu" key={index}>
@@ -56,7 +57,6 @@ export default function Footer() {
                     className={`footer-menu-title ${menu.titleClass || ""}`}
                     text={menu.title}
                   />
-
                   {menu.items.map((item, itemIndex) => (
                     <ul className="footer-menu-items">
                       <li
@@ -78,7 +78,10 @@ export default function Footer() {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <div className="footer-rights">
-              <p className="footer-rights-text">All rights reserved by Zwilt</p>
+              <Typography
+                className="footer-rights-text"
+                text="All rights reserved by Zwilt"
+              />
             </div>
 
             <div className="footer-privacy">

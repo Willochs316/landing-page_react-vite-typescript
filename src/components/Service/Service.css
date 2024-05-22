@@ -96,7 +96,7 @@
   cursor: pointer;
 }
 
-.service-menu-item.service-list.acive {
+.service-menu-item.service-list.activeItem {
   color: #202229;
 }
 
