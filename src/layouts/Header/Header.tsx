@@ -2,9 +2,10 @@ import { useState } from "react";
 import Images from "@assets/images";
 import NavBar from "@components/NavBar/NavBar";
 import Service from "@components/Service/Service";
+import Typography from "@commons/Typography";
 import "./Header.css";
 
-const Header: React.FC = () => {
+export default function Header() {
   const [inputValue, setInputValue] = useState<string>("");
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -24,10 +25,11 @@ const Header: React.FC = () => {
           has never been easier.
         </h2>
 
-        <p className="header-content">
-          With our rigorous pre-vetting process, you'll never have to worry
-          about finding the ideal candidate ever again.
-        </p>
+        <Typography
+          className="header-content"
+          text="With our rigorous pre-vetting process, you'll never have to worry
+          about finding the ideal candidate ever again."
+        />
 
         <form className="header-form">
           {inputValue === "" && (
@@ -50,6 +52,4 @@ const Header: React.FC = () => {
       </div>
     </header>
   );
-};
-
-export default Header;
+}

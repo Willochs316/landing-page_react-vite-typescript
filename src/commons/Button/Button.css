@@ -1,0 +1,13 @@
+.ud-button {
+  border: none;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5rem;
+  cursor: pointer;
+}

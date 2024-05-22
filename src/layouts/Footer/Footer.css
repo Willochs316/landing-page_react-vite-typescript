@@ -117,7 +117,7 @@
   line-height: 32px;
   text-align: left;
   color: #767679;
-  text-transform: capitalize;
+  text-transform: uppercase !important;
 }
 
 .links-redr-btn-container {
@@ -178,6 +178,7 @@
   line-height: 32px;
   text-align: left;
   color: #767679;
+  text-transform: uppercase !important;
 }
 
 .footer-menu-items {
@@ -207,8 +208,9 @@
   border-image-repeat: stretch;
 }
 
-.footer-menu-lt {
-  padding-top: 23px;
+.footer-menu-list-space {
+  padding: 0;
+  margin: 0;
 }
 
 .footer-bottom {
@@ -378,16 +380,13 @@
     line-height: 18px;
   }
 
-  .footer-menu-tl {
-    margin-top: 20px;
-  }
-
   .footer-menu-items {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 14px;
+    padding: 0;
   }
 
   .footer-menu-list {
@@ -396,8 +395,12 @@
     text-align: center;
   }
 
-  .footer-menu-lt {
+  .footer-menu-list-space {
     padding-top: 10px;
+  }
+
+  .footer-menu-top {
+    margin-top: 20px;
   }
 
   .footer-bottom {
@@ -435,168 +438,4 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .footer {
-    max-width: 100%;
-    width: 100%;
-    padding: 0 20px;
-  }
-
-  .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    background: url("../../assets/images/footer-rectangle.png") no-repeat center
-      center;
-    background-size: cover;
-  }
-
-  .footer-heading {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 60px;
-  }
-
-  .footer-heading-title {
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-  }
-
-  .footer-form {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .footer-icon {
-    width: 40px;
-    height: 40px;
-  }
-
-  .footer-main-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
-    padding-top: 60px;
-    margin: 0 auto;
-  }
-
-  .footer-company-descr {
-    max-width: 100%;
-    width: 100%;
-    line-height: 18px;
-    text-align: left;
-    padding-top: 20px;
-  }
-
-  .footer-links {
-    max-width: 100%;
-    padding-top: 30px;
-  }
-  .links-redir {
-    line-height: 18px;
-  }
-
-  .links-redr-btn-container {
-    width: 100%;
-  }
-
-  .links-redr-btn {
-    line-height: 1.5;
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-
-  .footer-connect {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .footer-connect-title {
-    max-width: 100%;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-  }
-
-  .footer-menu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    padding-top: 40px;
-  }
-
-  .footer-menu-title {
-    line-height: 18px;
-  }
-
-  .footer-menu-tl {
-    margin-top: 20px;
-  }
-
-  .footer-menu-items {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 10px;
-  }
-
-  .footer-menu-list {
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-  }
-
-  .footer-menu-lt {
-    padding-top: 10px;
-  }
-
-  .footer-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 40px;
-  }
-
-  .footer-rights-text {
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-  .footer-privacy {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-items: center;
-    padding-top: 9px;
-  }
-
-  .footer-privacy-text {
-    font-size: 14px;
-    line-height: 18px;
-    text-align: left;
-    white-space: nowrap;
-  }
-
-  .privacy-left {
-    padding: 0;
-    padding-top: 12px;
-  }
 }

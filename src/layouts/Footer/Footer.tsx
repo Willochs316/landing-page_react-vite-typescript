@@ -1,7 +1,9 @@
 import Images from "@assets/images";
+import Typography from "@commons/Typography";
+import menuData from "./FooterData";
 import "./Footer.css";
 
-const Footer: React.FC = () => {
+export default function Footer() {
   return (
     <section className="footer">
       {/* <img className="footer-bg" src={Images.footerBg} alt="" /> */}
@@ -30,7 +32,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="footer-links">
-              <p className="links-redir">LINKS AND REDIRECTS</p>
+              <p className="links-redir">links and redirects</p>
 
               <div className="links-redr-btn-container">
                 <a href="/" className="">
@@ -49,61 +51,27 @@ const Footer: React.FC = () => {
               Connecting the right people to the right businesses.
             </p>
             <div className="footer-menu-container">
-              <div className="footer-menu">
-                <p className="footer-menu-title">PLATFORM</p>
+              {menuData.map((menu, index) => (
+                <div className="footer-menu" key={index}>
+                  <Typography
+                    className={`footer-menu-title ${menu.titleClass || ""}`}
+                    text={menu.title}
+                  />
 
-                <ul className="footer-menu-items">
-                  <li className="footer-menu-list isActive">Find Work</li>
-
-                  <li className="footer-menu-list footer-menu-lt">
-                    Find Talent
-                  </li>
-                  <li className="footer-menu-list footer-menu-lt">
-                    Categories
-                  </li>
-                  <li className="footer-menu-list footer-menu-lt">About Us</li>
-                </ul>
-              </div>
-
-              <div className="footer-menu">
-                <p className="footer-menu-title footer-menu-tl">CATEGORIES</p>
-
-                <ul className="footer-menu-items">
-                  <li className="footer-menu-list">Data Science</li>
-
-                  <li className="footer-menu-list footer-menu-lt">
-                    IT & Networking
-                  </li>
-                  <li className="footer-menu-list footer-menu-lt">
-                    Web & Mobile
-                  </li>
-                </ul>
-              </div>
-
-              <div className="footer-menu">
-                <p className="footer-menu-title footer-menu-tl">HELP</p>
-
-                <ul className="footer-menu-items">
-                  <li className="footer-menu-list">FAQ&apos;s</li>
-
-                  <li className="footer-menu-list footer-menu-lt">
-                    Contact Us
-                  </li>
-                </ul>
-              </div>
-
-              <div className="footer-menu">
-                <p className="footer-menu-title footer-menu-tl">
-                  GET IN TOUCH @
-                </p>
-
-                <ul className="footer-menu-items">
-                  <li className="footer-menu-list">Instagram</li>
-
-                  <li className="footer-menu-list footer-menu-lt">LinkedIn</li>
-                  <li className="footer-menu-list footer-menu-lt">Twitter</li>
-                </ul>
-              </div>
+                  {menu.items.map((item, itemIndex) => (
+                    <ul className="footer-menu-items">
+                      <li
+                        className={`footer-menu-list ${menu.listClass} ${
+                          item.isActive ? "isActive" : ""
+                        }`}
+                        key={itemIndex}
+                      >
+                        {item.text}
+                      </li>
+                    </ul>
+                  ))}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -128,6 +96,4 @@ const Footer: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Footer;
+}
