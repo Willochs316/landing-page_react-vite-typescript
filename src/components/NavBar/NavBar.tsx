@@ -1,4 +1,5 @@
 import Images from "@assets/images";
+import Icon from "@components/Icon/Icon";
 import "./NavBar.css";
 
 const NavBar: React.FC = () => {
@@ -21,6 +22,10 @@ const NavBar: React.FC = () => {
       <div className="button-container">
         <div className="login">Log In</div>
         <div className="join-button">Join Now</div>
+      </div>
+
+      <div className="hamburger-container">
+        <Icon className="hamburger" />
       </div>
     </nav>
   );
