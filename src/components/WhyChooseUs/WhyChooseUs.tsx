@@ -16,7 +16,7 @@ const WhyChooseUs: React.FC = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="why-choose-us-scroll">
           <img className="why-choose-us-banner" src={Images.frm} alt="" />
         </div>
       </div>
