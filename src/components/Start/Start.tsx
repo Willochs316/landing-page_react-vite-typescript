@@ -8,9 +8,9 @@ const Start: React.FC = () => {
         <h2 className="start-heading">Start your journey today.</h2>
 
         <div className="start-menu">
-          <img src={Images.blueGroup} />
-          <img src={Images.yellowGroup} />
-          <img src={Images.whiteGroup} />
+          <img className="image-banner" src={Images.blueGroup} />
+          <img className="image-banner" src={Images.yellowGroup} />
+          <img className="image-banner" src={Images.whiteGroup} />
         </div>
       </div>
     </section>

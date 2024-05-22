@@ -35,10 +35,20 @@
   }
 
   .start-heading {
-    max-width: 90%;
+    max-width: 100%;
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
     text-align: center;
+  }
+
+  .start-menu {
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .image-banner {
+    width: 100%;
+    height: auto;
   }
 }
