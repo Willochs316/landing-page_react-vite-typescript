@@ -24,6 +24,16 @@
   padding-top: 144px;
 }
 
+.header-image-container {
+  width: 68px;
+  height: 43px;
+}
+
+.header-image {
+  width: 68px;
+  height: 43px;
+}
+
 .header-content {
   font-size: 22px;
   font-weight: 400;

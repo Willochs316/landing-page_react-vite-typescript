@@ -1,7 +1,4 @@
 .strategy {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   max-width: 100%;
   width: 100%;
   padding-top: 149px;
@@ -25,11 +22,11 @@
   text-align: left;
 }
 
-.strategy-text-container {
+.strategy-descr {
   padding-top: 30px;
 }
 
-.strategy-text {
+.strategy-descr-content {
   max-width: 646px;
   font-size: 22px;
   font-weight: 400;
@@ -79,12 +76,12 @@
   align-items: center;
 }
 
-.strategy-menu-item-descr {
+.strategy-menu-descr {
   padding-left: 23px;
   width: 100%;
 }
 
-.strategy-menu-item-text {
+.strategy-menu-descr-title {
   width: 100%;
   font-size: 16px;
   font-weight: 600;
@@ -98,11 +95,88 @@
   max-width: 531px;
 }
 
-.interview-descr-text {
+.interview-descr-content {
   opacity: 0.8px;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-align: left;
   color: #202229;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+  .strategy {
+    max-width: 100%;
+    width: 100%;
+    padding: 80px 20px 60px;
+  }
+
+  .strategy-header {
+    max-width: 100%;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .strategy-descr {
+    padding-top: 20px;
+  }
+
+  .strategy-descr-content {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .strategy-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .strategy-menu-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 11px 20px;
+    cursor: pointer;
+  }
+
+  .strategy-space {
+    margin-top: 2px;
+  }
+
+  .strategy-menu-item-interview {
+    width: 100%;
+    padding: 11px 20px;
+  }
+
+  .interv {
+    margin-top: 3px;
+  }
+
+  .strategy-menu-descr {
+    padding-left: 15px;
+    width: 100%;
+  }
+
+  /* font size for small screens */
+  .strategy-menu-descr-title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    white-space: normal;
+  }
+
+  .interview-descr {
+    padding-top: 16px;
+    max-width: 100%;
+  }
 }

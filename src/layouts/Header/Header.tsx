@@ -18,8 +18,8 @@ const Header: React.FC = () => {
 
         <h2 className="header-title">
           Finding the right fit{" "}
-          <span>
-            <img src={Images.zwilt} />
+          <span className="header-image-container">
+            <img className="header-image" src={Images.zwilt} />
           </span>{" "}
           has never been easier.
         </h2>
