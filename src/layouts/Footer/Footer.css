@@ -10,16 +10,6 @@
   background: linear-gradient(180deg, #0c0c0c 0%, #202229 100%);
 }
 
-/* .footer-bg {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: none;
-  background: #0c0c0c;
-} */
-
 .foooter-container {
   display: flex;
   flex-direction: column;

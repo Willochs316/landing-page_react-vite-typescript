@@ -1,4 +1,4 @@
-const menuData = [
+export const menuData = [
   {
     title: "platform",
     titleClass: "",
@@ -28,4 +28,7 @@ const menuData = [
   },
 ];
 
-export default menuData;
+export const privacyLinks = [
+  { text: "Privacy Policy", href: "/" },
+  { text: "Terms and Conditions", href: "/", className: "privacy-left" },
+];

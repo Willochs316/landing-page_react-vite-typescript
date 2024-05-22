@@ -1,12 +1,11 @@
 import Images from "@assets/images";
 import Typography from "@commons/Typography";
-import menuData from "./FooterData";
+import { menuData, privacyLinks } from "./FooterData";
 import "./Footer.css";
 
 export default function Footer() {
   return (
     <section className="footer">
-      {/* <img className="footer-bg" src={Images.footerBg} alt="" /> */}
       <div className="foooter-container">
         <div className="footer-content">
           <div className="footer-heading">
@@ -83,13 +82,15 @@ export default function Footer() {
             </div>
 
             <div className="footer-privacy">
-              <a href="/" className="footer-privacy-text">
-                Privacy Policy
-              </a>
-
-              <a href="/" className="footer-privacy-text privacy-left">
-                Terms and Conditions
-              </a>
+              {privacyLinks.map((link, index) => (
+                <a
+                  href={link.href}
+                  className={`footer-privacy-text ${link.className}`}
+                  key={index}
+                >
+                  {link.text}
+                </a>
+              ))}
             </div>
           </div>
         </div>
