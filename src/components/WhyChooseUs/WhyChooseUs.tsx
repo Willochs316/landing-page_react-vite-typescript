@@ -1,7 +1,7 @@
 import Images from "@assets/images";
 import "./WhyChooseUs.css";
 
-const WhyChooseUs: React.FC = () => {
+export default function WhyChooseUs() {
   return (
     <section className="why-choose">
       <div className="why-choose-content">
@@ -22,6 +22,4 @@ const WhyChooseUs: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default WhyChooseUs;
+}

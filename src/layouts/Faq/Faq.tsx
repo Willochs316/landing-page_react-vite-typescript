@@ -1,7 +1,7 @@
 import Images from "@assets/images";
 import "./Faq.css";
 
-const Faq: React.FC = () => {
+export default function Faq() {
   return (
     <section className="faq">
       <div className="faq-container">
@@ -90,6 +90,4 @@ const Faq: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Faq;
+}
