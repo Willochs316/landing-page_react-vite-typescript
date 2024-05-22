@@ -17,7 +17,7 @@ const WhyChooseUs: React.FC = () => {
         </div>
 
         <div className="">
-          <img src={Images.frm} alt="" />
+          <img className="why-choose-us-banner" src={Images.frm} alt="" />
         </div>
       </div>
     </section>

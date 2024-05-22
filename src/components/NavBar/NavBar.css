@@ -17,6 +17,11 @@
   cursor: pointer;
 }
 
+.site-logo {
+  width: 112px;
+  height: auto;
+}
+
 .navigation-menu {
   display: flex;
   align-items: center;

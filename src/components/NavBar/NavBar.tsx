@@ -6,7 +6,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="navigation">
       <div className="zwilt">
-        <img src={Images.logo} alt="" />
+        <img className="site-logo" src={Images.logo} alt="" />
       </div>
 
       <div className="navigation-menu">
