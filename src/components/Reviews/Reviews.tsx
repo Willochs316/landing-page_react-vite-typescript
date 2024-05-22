@@ -14,7 +14,7 @@ const Reviews: React.FC = () => {
             </span>{" "}
             at{" "}
             <span>
-              <img src={Images.groove} alt="" />
+              <img className="groove" src={Images.groove} alt="" />
             </span>
           </h2>
 
@@ -24,11 +24,11 @@ const Reviews: React.FC = () => {
           </p>
 
           <div className="navigation-button">
-            <button className="navigation-btn">
+            <button className="navigation-swipe-btn">
               <img className="navigation-icon" src={Images.leftZwilt} alt="" />
             </button>
 
-            <button className="navigation-btn next">
+            <button className="navigation-swipe-btn next">
               <img className="navigation-icon" src={Images.rightZwilt} alt="" />
             </button>
           </div>

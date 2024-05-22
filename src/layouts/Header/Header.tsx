@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Images from "@assets/images";
 import NavBar from "@components/NavBar/NavBar";
-import ItDepartment from "@components/Service/Service";
+import Service from "@components/Service/Service";
 import "./Header.css";
 
 const Header: React.FC = () => {
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
           <img src={Images.inputIcon} className="header-input-icon" />
         </form>
 
-        <ItDepartment />
+        <Service />
       </div>
     </header>
   );
