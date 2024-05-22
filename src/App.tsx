@@ -1,7 +1,7 @@
 import Images from "@assets/images";
 import Information from "@components/TechStack/TechStack";
 import Reviews from "@components/Reviews/Reviews";
-// import Start from "@components/Start/Start";
+import Start from "@components/Start/Start";
 import Strategy from "@components/Strategy/Strategy";
 // import WhyChooseUs from "@components/WhyChooseUs/WhyChooseUs";
 // import Faq from "@layouts/Faq/Faq";
@@ -16,9 +16,8 @@ function App() {
       <Information />
       <Reviews />
       <Strategy />
-      {/* 
-      
       <Start />
+      {/* 
       <WhyChooseUs />
       <Faq />
       <Footer /> */}
