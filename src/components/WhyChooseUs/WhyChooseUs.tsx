@@ -17,7 +17,10 @@ export default function WhyChooseUs() {
         </div>
 
         <div className="why-choose-us-scroll">
-          <img className="why-choose-us-banner" src={Images.frm} alt="" />
+          <img className="why-choose-us-banner" src={Images.risk} alt="" />
+
+          <img className="why-choose-us-banner" src={Images.book} alt="" />
+          <img className="why-choose-us-banner" src={Images.loop} alt="" />
         </div>
       </div>
     </section>

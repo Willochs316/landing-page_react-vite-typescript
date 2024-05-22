@@ -12,7 +12,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  overflow: hidden;
 }
 
 .why-choose-descr {
@@ -28,7 +27,7 @@
 }
 
 .why-choose-descr-container {
-  max-width: 326px;
+  width: 326px;
   padding-top: 37px;
 }
 
@@ -43,8 +42,13 @@
 .why-choose-us-scroll {
   display: flex;
   align-items: center;
-  overflow: hidden;
+  width: 925px;
   overflow-x: auto;
+  cursor: pointer;
+}
+
+.why-choose-us-scroll .why-choose-us-banner {
+  flex-shrink: 0;
 }
 
 .why-choose-us-scroll::-webkit-scrollbar {
@@ -90,13 +94,12 @@
 
   .why-choose-us-scroll {
     width: 100%;
+    padding-top: 20px;
     overflow-x: auto;
   }
 
   .why-choose-us-banner {
-    width: 100%;
+    width: 320px;
     height: auto;
-    max-width: 100%;
-    max-height: 300px;
   }
 }
