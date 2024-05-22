@@ -395,4 +395,41 @@
     line-height: 22px;
     text-align: center;
   }
+
+  .footer-menu-lt {
+    padding-top: 10px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .footer-rights-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .footer-privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    padding-top: 9px;
+  }
+
+  .footer-privacy-text {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .privacy-left {
+    padding: 0;
+    padding-top: 12px;
+  }
 }
