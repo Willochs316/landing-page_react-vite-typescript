@@ -33,11 +33,12 @@
 .service-info {
   width: 192px;
   height: 44px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-radius: 15px;
   padding: 10px 30px;
-  cursor: pointer;
   white-space: nowrap;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
 }
 
 .active {
@@ -47,11 +48,12 @@
 .service-design {
   width: 288px;
   height: 44px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px;
   padding: 10px 30px;
   opacity: 0.15px;
   white-space: nowrap;
+  outline: 0;
+  border: 0;
   cursor: pointer;
 }
 
@@ -129,10 +131,8 @@
   .service-info {
     width: 90%;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
     padding: 8px 15px;
-    cursor: pointer;
     text-align: center;
     display: flex;
     align-items: center;
@@ -142,10 +142,8 @@
   .service-design {
     width: 90%;
     height: 40px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     padding: 8px 15px;
-    cursor: pointer;
     text-align: center;
     display: flex;
     align-items: center;
