@@ -4,6 +4,13 @@
   padding-top: 149px;
   padding-left: 70px;
   padding-bottom: 92px;
+  position: relative;
+}
+
+.strategy-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .strategy-container {

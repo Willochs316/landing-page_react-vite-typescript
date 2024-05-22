@@ -11,7 +11,7 @@ export default function TechStack() {
       <div className="services-tech-stack-section">
         <h2 className="services-tech-stack-header">
           <span className="services-tech-stack-header-title">
-            Your one-stop marketplace for finding the talent your business
+            Your one-stop market place for finding the talent your business
             needs.
           </span>
         </h2>

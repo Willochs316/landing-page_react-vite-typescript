@@ -24,7 +24,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.union {
-  width: 100%;
+.stripe-container {
+  width: 1470.89px;
+  height: 132.99px;
   padding-top: 4px;
 }

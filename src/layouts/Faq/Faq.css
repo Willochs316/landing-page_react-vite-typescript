@@ -4,6 +4,7 @@
   padding-top: 134px;
   padding-bottom: 171.5px;
   background: #f3f3f3;
+  position: relative;
   /* 
   background: url("../../assets/images/faq.png"); */
 }
@@ -101,4 +102,9 @@
 .yellow-zwilt-img {
   width: 26.06px;
   height: 15.63px;
+}
+
+.faq-icon {
+  position: absolute;
+  bottom: -1.5px;
 }

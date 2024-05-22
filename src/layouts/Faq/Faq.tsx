@@ -88,6 +88,7 @@ export default function Faq() {
           </div>
         </div>
       </div>
+      <img className="faq-icon" src={Images.halfTopBlue} alt="" />
     </section>
   );
 }

@@ -5,6 +5,7 @@ import "./Strategy.css";
 export default function Strategy() {
   return (
     <section className="strategy">
+      <img className="strategy-icon" src={Images.halfBottomBlue} alt="" />
       <div className="strategy-container">
         <h2 className="strategy-header">
           How we ensure you&apos;re in good hands.
