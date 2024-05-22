@@ -204,7 +204,7 @@ const Information: React.FC = () => {
           </div>
         </div>
 
-        <div className="services-tech-stack-container explore">
+        <div className="explore">
           <div className="explore-conent">
             <img className="explore-btn" src={Images.roundZwilt} alt="" />
             <p className="explore-text">Explore More</p>

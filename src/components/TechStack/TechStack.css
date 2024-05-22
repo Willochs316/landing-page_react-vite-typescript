@@ -142,7 +142,10 @@
 }
 
 .explore {
-  padding-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 70px 0px;
   width: 100%;
 }
 
@@ -281,6 +284,34 @@
     width: auto;
     font-size: 12px;
     line-height: 16px;
+    text-align: center;
+  }
+
+  .explore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px 0;
+    width: 100%;
+  }
+
+  .explore-btn {
+    width: 60px;
+    height: 60px;
+    appearance: button;
+  }
+
+  .explore-more {
+    max-width: 90%;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .explore-more-text {
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
   }
 }
