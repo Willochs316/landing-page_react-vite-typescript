@@ -1,7 +1,8 @@
 import Images from "@assets/images";
+import Typography from "@commons/Typography";
 import "./Strategy.css";
 
-const Strategy: React.FC = () => {
+export default function Strategy() {
   return (
     <section className="strategy">
       <div className="strategy-container">
@@ -9,10 +10,11 @@ const Strategy: React.FC = () => {
           How we ensure you&apos;re in good hands.
         </h2>
         <div className="strategy-descr">
-          <p className="strategy-descr-content">
-            With our comprehensive screening process, we hand-pick highly
-            skilled candidates so you can onboard them in a matter of days.
-          </p>
+          <Typography
+            className="strategy-descr-content"
+            text="With our comprehensive screening process, we hand-pick highly
+            skilled candidates so you can onboard them in a matter of days."
+          />
         </div>
 
         <div className="strategy-menu">
@@ -38,11 +40,12 @@ const Strategy: React.FC = () => {
             </div>
 
             <div className="interview-descr">
-              <p className="interview-descr-content">
-                Candidates are assessed through skill based questions in a
+              <Typography
+                className="interview-descr-content"
+                text="Candidates are assessed through skill based questions in a
                 virtual setting. Allowing you to gauge personality and cultural
-                fit.
-              </p>
+                fit."
+              />
             </div>
           </div>
 
@@ -79,6 +82,4 @@ const Strategy: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Strategy;
+}

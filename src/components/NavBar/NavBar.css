@@ -63,6 +63,8 @@
   padding-right: 20px;
   color: #ffffff;
   white-space: nowrap;
+  appearance: button;
+  cursor: pointer;
 }
 
 .join-button {

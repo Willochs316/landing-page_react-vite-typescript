@@ -1,6 +1,7 @@
 import Images from "@assets/images";
 import Typography from "@commons/Typography";
-import { menuData, privacyLinks } from "./FooterData";
+import { menuData } from "./FooterData";
+import FooterBottom from "./FooterBottom";
 import "./Footer.css";
 
 export default function Footer() {
@@ -75,28 +76,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="footer-bottom">
-          <div className="footer-bottom-content">
-            <div className="footer-rights">
-              <Typography
-                className="footer-rights-text"
-                text="All rights reserved by Zwilt"
-              />
-            </div>
-
-            <div className="footer-privacy">
-              {privacyLinks.map((link, index) => (
-                <a
-                  href={link.href}
-                  className={`footer-privacy-text ${link.className}`}
-                  key={index}
-                >
-                  {link.text}
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
+        <FooterBottom />
       </div>
     </section>
   );

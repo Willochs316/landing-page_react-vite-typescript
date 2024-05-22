@@ -1,7 +1,7 @@
 import Images from "@assets/images";
 import "./Start.css";
 
-const Start: React.FC = () => {
+export default function Start() {
   return (
     <section className="start">
       <div className="start-container">
@@ -15,6 +15,4 @@ const Start: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Start;
+}

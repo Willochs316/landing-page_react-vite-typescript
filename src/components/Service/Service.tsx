@@ -2,7 +2,7 @@ import { useState } from "react";
 import { serviceMenus } from "./ServiceData";
 import "./Service.css";
 
-const Service: React.FC = () => {
+export default function Service() {
   const [activeService, setActiveService] = useState<string>("IT");
 
   const toggleActiveService = (service: string) => {
@@ -53,6 +53,4 @@ const Service: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default Service;
+}

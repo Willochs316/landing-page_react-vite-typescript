@@ -1,8 +1,9 @@
 import Images from "@assets/images";
 import Icon from "@components/Icon/Icon";
+import { navigationItems } from "./NavData";
 import "./NavBar.css";
 
-const NavBar: React.FC = () => {
+export default function NavBar() {
   return (
     <nav className="navigation">
       <div className="zwilt">
@@ -11,17 +12,22 @@ const NavBar: React.FC = () => {
 
       <div className="navigation-menu">
         <ul className="navigation-menu-items">
-          <li className="navigation-menu-item">Find Work</li>
-          <li className="navigation-menu-item menu-list">Find Talent</li>
-          <li className="navigation-menu-item menu-list">Articles</li>
-          <li className="navigation-menu-item menu-list">About Us</li>
-          <li className="navigation-menu-item menu-list">Contact Us</li>
+          {navigationItems.map((item, index) => (
+            <li
+              key={index}
+              className={`navigation-menu-item ${
+                index > 0 ? " menu-list" : ""
+              }`}
+            >
+              {item}
+            </li>
+          ))}
         </ul>
       </div>
 
       <div className="button-container">
         <div className="login">Log In</div>
-        <div className="join-button">Join Now</div>
+        <button className="join-button">Join Now</button>
       </div>
 
       <div className="hamburger-container">
@@ -29,6 +35,4 @@ const NavBar: React.FC = () => {
       </div>
     </nav>
   );
-};
-
-export default NavBar;
+}

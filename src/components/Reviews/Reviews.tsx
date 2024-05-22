@@ -1,7 +1,7 @@
 import Images from "@assets/images";
 import "./Review.css";
 
-const Reviews: React.FC = () => {
+export default function Reviews() {
   return (
     <section className="reviews">
       <img className="quote" src={Images.quote} alt="" />
@@ -62,6 +62,4 @@ const Reviews: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Reviews;
+}
