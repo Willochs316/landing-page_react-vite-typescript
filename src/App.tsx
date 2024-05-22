@@ -1,6 +1,6 @@
 import Images from "@assets/images";
 import Information from "@components/TechStack/TechStack";
-// import Reviews from "@components/Reviews/Reviews";
+import Reviews from "@components/Reviews/Reviews";
 // import Start from "@components/Start/Start";
 // import Strategy from "@components/Strategy/Strategy";
 // import WhyChooseUs from "@components/WhyChooseUs/WhyChooseUs";
@@ -14,8 +14,8 @@ function App() {
       <Header />
       <img className="union" src={Images.union} alt="" />
       <Information />
-      {/* 
       <Reviews />
+      {/* 
       <Strategy />
       <Start />
       <WhyChooseUs />
