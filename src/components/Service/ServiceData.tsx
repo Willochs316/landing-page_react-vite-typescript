@@ -18,7 +18,7 @@ export const serviceMenus = {
       items: [
         { id: 5, text: "Data Scientist", firstChild: true },
         { id: 6, text: "Front End Developer" },
-        { id: 7, text: "Front End Developer" },
+        { id: 7, text: "Back End Developer" },
         { id: 8, text: "Python Developer" },
       ],
     },
