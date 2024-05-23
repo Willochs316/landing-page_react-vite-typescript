@@ -13,7 +13,7 @@
   background: #f8f8f8;
 }
 
-.service-header {
+.service-heading-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
   background: #f2f2f2;
 }
 
-.service-info {
+.service-technology {
   width: 192px;
   height: 44px;
   border-radius: 15px;
@@ -72,7 +72,9 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 23px 65px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+  padding-left: 65px;
 }
 
 .service-menu-items {
@@ -103,6 +105,10 @@
 .service-list {
   padding-top: 18px;
   cursor: pointer;
+}
+
+.service-list.first-child {
+  padding-top: 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {

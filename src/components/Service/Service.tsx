@@ -2,20 +2,28 @@ import { useState } from "react";
 import { serviceMenus } from "./ServiceData";
 import "./Service.css";
 
-export default function Service() {
-  const [activeService, setActiveService] = useState<string>("IT");
+type ServiceCategory = "IT" | "Design";
 
-  const toggleActiveService = (service: string) => {
+export default function Service() {
+  const [activeService, setActiveService] = useState<ServiceCategory>("IT");
+  const [activeItem, setActiveItem] = useState<number | null>(null);
+
+  const toggleActiveService = (service: ServiceCategory) => {
     setActiveService(service);
+    setActiveItem(null); // Reset active item when service category changes
+  };
+
+  const handleItemClick = (itemId: number) => {
+    setActiveItem(itemId);
   };
 
   return (
     <div className="service">
       <div className="service-container">
-        <div className="service-header">
+        <div className="service-heading-container">
           <div className="service-tagline">
             <div
-              className={`service-info ${
+              className={`service-technology ${
                 activeService === "IT" ? "active" : ""
               }`}
               onClick={() => toggleActiveService("IT")}
@@ -35,14 +43,17 @@ export default function Service() {
         </div>
 
         <div className="service-menu">
-          {serviceMenus.map((menu, index) => (
+          {serviceMenus[activeService].map((menu, index) => (
             <ul className={`${menu.mainClass} ${menu.subClass}`} key={index}>
-              {menu.items.map((item, itemIndex) => (
+              {menu.items.map((item) => (
                 <li
-                  className={`service-menu-item ${menu.listClass}
-                  ${item.activeItem ? "activeItem" : ""}
-                  `}
-                  key={itemIndex}
+                  className={`service-menu-item ${menu.listClass} ${
+                    item.activeItem || activeItem === item.id
+                      ? "activeItem"
+                      : ""
+                  } ${item.firstChild ? "first-child" : ""}`}
+                  key={item.id}
+                  onClick={() => handleItemClick(item.id)}
                 >
                   {item.text}
                 </li>
