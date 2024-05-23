@@ -147,3 +147,35 @@
     appearance: button;
   }
 }
+
+/* Styles for medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    position: relative;
+  }
+
+  .zwilt {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .button-container {
+    display: none !important;
+  }
+
+  .hamburger-container {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    appearance: button;
+  }
+}

@@ -211,6 +211,151 @@
   }
 
   .header-form {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .placeholder-container {
+    left: 15px;
+    bottom: 15px;
+    font-size: 14px;
+  }
+
+  .text-darker-gray {
+    font-size: 14px;
+  }
+
+  .text-gray {
+    font-size: 14px;
+  }
+
+  .header-input-field {
+    width: 100%;
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .header-input-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    border-radius: 10px;
+    background: #ffbe2e;
+    cursor: pointer;
+  }
+}
+
+/* Styles for medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 15px 30px 15px;
+  }
+
+  .header-container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .navigation-menu {
+    display: none !important;
+  }
+
+  .header-title {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .header-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .header-form {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .placeholder-container {
+    left: 15px;
+    bottom: 15px;
+    font-size: 14px;
+  }
+
+  .text-darker-gray {
+    font-size: 14px;
+  }
+
+  .text-gray {
+    font-size: 14px;
+  }
+
+  .header-input-field {
+    width: 100%;
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .header-input-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    border-radius: 10px;
+    background: #ffbe2e;
+    cursor: pointer;
+  }
+
+  .header {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 15px 30px 15px;
+  }
+
+  .header-container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .navigation-menu {
+    display: none !important;
+  }
+
+  .header-title {
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .header-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .header-form {
     width: 100%;
     padding-top: 20px;
   }
