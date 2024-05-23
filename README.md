@@ -69,6 +69,16 @@ The application will be available at http://localhost:5173/.
 - Button: A reusable button component with customizable styles.
 - Component-Based: Modular and reusable components.
 - Navbar: A responsive navigation bar with dropdown support.
+- CustomLink: A customizable link component with support for external and internal navigation.
+- Typography: Custom text components for consistent styling across headings, paragraphs, and other text elements.
+
+## Optimization Strategies
+
+To ensure the website is optimized for speed and scalability, we implemented the following strategies:
+
+- [x] Code Splitting: I used dynamic imports to split code into smaller bundles.
+- [x] Optimized the frontend to load and render data quickly.
+- [x] I utilized efficient data structures and algorithms to process
 
 ## Expanding the ESLint configuration
 
