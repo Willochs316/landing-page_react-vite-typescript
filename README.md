@@ -1,5 +1,21 @@
 # React + TypeScript + Vite
 
+This project involves translating UI/UX designs and wireframes into functional application code and building visual components. I optimize the website for speed and scalability using React.js, Vite, and TypeScript.
+
+## Project Overview
+
+The goal of this project is to create a high-performance, scalable website for Zwilt by implementing new user-facing features and UI components based on provided designs. This involves the following key tasks:
+
+- Translating UI/UX designs into functional code
+- Building reusable and responsive UI components
+- Optimizing the website for speed and scalability
+
+## Technologies Used
+
+- React.js: A JavaScript library for building user interfaces.
+- Vite: A next-generation front-end tool for faster builds.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+
 ## Getting Started
 
 These instructions will help you set up the project on your local machine for development and testing purposes.
@@ -12,6 +28,8 @@ Ensure you have the following installed:
 - [x] npm (version 6.x or later) or yarn (version 1.x or later)
 
 ## Installation
+
+To get started with the development environment, follow these steps:
 
 1. Clone the repository:
 
@@ -38,11 +56,19 @@ npm run dev
 
 The application will be available at http://localhost:5173/.
 
-## Features
+## Features Implemented
 
-- Responsive Design: Optimized for various screen sizes.
+### User-Facing Features
+
+- Home Page: A responsive landing page with dynamic content.
+- Dashboard: An interactive dashboard displaying user-specific data.
 - Fast Development: Utilizes Vite for rapid development.
+
+## UI Components
+
+- Button: A reusable button component with customizable styles.
 - Component-Based: Modular and reusable components.
+- Navbar: A responsive navigation bar with dropdown support.
 
 ## Expanding the ESLint configuration
 
