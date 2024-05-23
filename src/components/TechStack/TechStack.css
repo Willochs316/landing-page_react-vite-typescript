@@ -1,7 +1,24 @@
-.services-tech-stack {
-  max-width: 1440px;
+.service-stripe {
+  max-width: 100%;
   width: 100%;
-  background: #edefff;
+  position: relative;
+}
+
+.stripe-container {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  bottom: -45px;
+}
+
+.stripe {
+  width: 100%;
+}
+
+.services-tech-stack {
+  max-width: 100%;
+  width: 100%;
+  background: url('data:image/svg+xml,<svg width="1440" viewBox="0 0 1440 1130" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 50.0002L1440 0V1080.5L0 1130V50.0002Z" fill="%23EDEFFF"/></svg>');
   position: relative;
 }
 

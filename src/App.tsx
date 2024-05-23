@@ -1,4 +1,4 @@
-import Images from "@assets/images";
+// import Images from "@assets/images";
 import Reviews from "@components/Reviews/Reviews";
 import Start from "@components/Start/Start";
 import Strategy from "@components/Strategy/Strategy";
@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="stripe-container">
+      {/* <div className="stripe-container">
         <img className="stripe" src={Images.stripe} alt="" />
-      </div>
+      </div> */}
       <TechStack />
       <Reviews />
       <Strategy />
