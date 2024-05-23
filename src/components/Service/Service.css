@@ -160,7 +160,11 @@
     flex-direction: column;
     /* padding-left: 10px;
     padding-right: 10px; */
-    padding: 20px;
+    /* padding-bottom: 20px; */
+    padding-bottom: 15px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: flex-start;
     width: 100%;
   }
@@ -175,13 +179,17 @@
   }
 
   .service-menu-item {
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
     /* for big screen 16px */
   }
 
   .service-list {
     width: 100%;
+    padding-top: 16px;
+  }
+
+  .service-list.first-child {
     padding-top: 16px;
   }
 
