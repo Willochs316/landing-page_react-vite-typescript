@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3igxzv045bwhde10o7j0.png" />
+</div>
+
 # React + TypeScript + Vite
 
 This project involves translating UI/UX designs and wireframes into functional application code and building visual components. I optimize the website for speed and scalability using React.js, Vite, and TypeScript.
