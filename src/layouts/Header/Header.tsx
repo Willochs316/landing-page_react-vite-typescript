@@ -1,10 +1,10 @@
 import { useState } from "react";
+import { Svgs } from "@assets/svgs";
 import Images from "@assets/images";
 import NavBar from "@components/NavBar/NavBar";
 import Service from "@components/Service/Service";
 import Typography from "@commons/Typography";
 import "./Header.css";
-import { Svgs } from "@assets/svgs";
 
 export default function Header() {
   const [inputValue, setInputValue] = useState<string>("");
