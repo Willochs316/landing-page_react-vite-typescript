@@ -52,3 +52,87 @@
     height: auto;
   }
 }
+
+/* Styles for small devices (phones) */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .start {
+    max-width: 100%;
+    width: 100%;
+    padding: 80px 20px 0;
+    position: relative;
+  }
+
+  .start-heading {
+    max-width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .start-menu {
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .image-banner {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Styles for medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .start {
+    max-width: 100%;
+    width: 100%;
+    padding: 80px 20px 0;
+    position: relative;
+  }
+
+  .start-heading {
+    max-width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .start-menu {
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .image-banner {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Styles for large devices (desktops) */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .start {
+    max-width: 100%;
+    width: 100%;
+    padding: 80px 20px 0;
+    position: relative;
+  }
+
+  .start-heading {
+    max-width: 100%;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .start-menu {
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .image-banner {
+    width: 100%;
+    height: auto;
+  }
+}
