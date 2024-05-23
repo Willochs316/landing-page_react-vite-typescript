@@ -2,7 +2,7 @@
   <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3igxzv045bwhde10o7j0.png" />
 </div>
 
-# React + TypeScript + Vite
+# React + Vite + TypeScript
 
 This project involves translating UI/UX designs and wireframes into functional application code, building visual components for the Zwilt company website, and optimizing these components for maximum performance and scalability. The technologies used for this project include React.js, Vite, and TypeScript.
 
