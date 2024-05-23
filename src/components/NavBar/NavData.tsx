@@ -5,3 +5,8 @@ export const navigationItems = [
   "About Us",
   "Contact Us",
 ];
+
+export const buttons = [
+  { href: "/", className: "login", label: "Log In" },
+  { href: "/", className: "join-button", label: "Join Now" },
+];

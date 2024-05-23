@@ -1,5 +1,4 @@
 const Images = {
-  logo: new URL("./logo.png", import.meta.url).href,
   zwilt: new URL("./zwilt-tba-1-01 2.png", import.meta.url).href,
   inputIcon: new URL("./input-icon.png", import.meta.url).href,
   stripe: new URL("./stripe.png", import.meta.url).href,

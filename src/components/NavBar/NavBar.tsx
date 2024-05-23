@@ -1,14 +1,14 @@
-import Images from "@assets/images";
+import { Svgs } from "@assets/svgs";
 import Icon from "@components/Icon/Icon";
-import { navigationItems } from "./NavData";
+import { buttons, navigationItems } from "./NavData";
 import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <nav className="navigation">
-      <div className="zwilt">
-        <img className="site-logo" src={Images.logo} alt="" />
-      </div>
+      <a href="/" className="zwilt">
+        <Svgs.Zwilt className="site-logo" />
+      </a>
 
       <div className="navigation-menu">
         <ul className="navigation-menu-items">
@@ -19,15 +19,20 @@ export default function NavBar() {
                 index > 0 ? " menu-list" : ""
               }`}
             >
-              {item}
+              <a href="/" className="navigation-link">
+                {item}
+              </a>
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="button-container">
-        <div className="login">Log In</div>
-        <button className="join-button">Join Now</button>
+      <div className="navigation-menu-btn-container">
+        {buttons.map((button, index) => (
+          <a key={index} href={button.href} className={button.className}>
+            {button.label}
+          </a>
+        ))}
       </div>
 
       <div className="hamburger-container">
