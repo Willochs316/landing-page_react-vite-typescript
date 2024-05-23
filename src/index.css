@@ -25,7 +25,19 @@ html {
 }
 
 .stripe-container {
-  width: 1470.89px;
-  height: 132.99px;
+  max-width: 100%;
+  width: 100%;
   padding-top: 4px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+  .stripe-container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .stripe {
+    max-width: 100%;
+    width: 100%;
+  }
 }

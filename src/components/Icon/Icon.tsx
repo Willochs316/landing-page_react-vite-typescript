@@ -2,7 +2,7 @@ interface IconProps {
   className?: string;
 }
 
-const Icon: React.FC<IconProps> = ({ className }) => {
+export default function Icon({ className }: IconProps) {
   return (
     <>
       <svg
@@ -20,6 +20,4 @@ const Icon: React.FC<IconProps> = ({ className }) => {
       </svg>
     </>
   );
-};
-
-export default Icon;
+}

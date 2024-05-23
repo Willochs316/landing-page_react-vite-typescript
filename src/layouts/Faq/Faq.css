@@ -3,10 +3,11 @@
   width: 100%;
   padding-top: 134px;
   padding-bottom: 171.5px;
-  background: #f3f3f3;
   position: relative;
-  /* 
-  background: url("../../assets/images/faq.png"); */
+  height: auto;
+  background: url("../../assets/images/faq.png") no-repeat center center;
+  background-size: cover;
+  background-color: #f3f3f3;
 }
 
 .faq-container {
@@ -106,5 +107,88 @@
 
 .faq-icon {
   position: absolute;
+  max-width: 100%;
+  width: 100%;
   bottom: -1.5px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+  .faq {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .faq-icon {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .faq-header {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .faq-content {
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  .faq-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .faq-item {
+    border-right: none;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  .faq-item-inner {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .faq-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .faq-descr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .faq-descr-content {
+    font-size: 18px;
+    opacity: 0.8px;
+  }
+
+  .faq-bold {
+    font-size: 18px;
+  }
+
+  .yellow-zwilt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .yellow-zwilt-img {
+    width: 20px;
+    height: 12px;
+  }
 }

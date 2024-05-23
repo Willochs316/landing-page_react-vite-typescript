@@ -9,6 +9,8 @@
 
 .strategy-icon {
   position: absolute;
+  max-width: 100%;
+  width: 100%;
   left: 0;
   top: 0;
 }
@@ -116,6 +118,11 @@
     max-width: 100%;
     width: 100%;
     padding: 80px 20px 60px;
+  }
+
+  .strategy-icon {
+    max-width: 100%;
+    width: 100%;
   }
 
   .strategy-header {
