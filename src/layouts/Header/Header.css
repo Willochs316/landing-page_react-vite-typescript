@@ -236,3 +236,122 @@
     padding: 0 20px;  */
   }
 }
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .header {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 15px 30px 15px;
+  }
+
+  .header-container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .header-title-container {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .header-title {
+    font-size: 28px;
+    line-height: 38px;
+    max-width: 100%;
+    width: 100%;
+    /* for bigger screen 
+     font-size: 36px;
+    line-height: 46px;
+    */
+  }
+
+  .header-image-container {
+    width: 40px;
+    /* for bigger screen 50px */
+  }
+
+  .header-image {
+    width: 40px;
+    /* for bigger screen 50px */
+  }
+
+  .header-content {
+    padding-top: 10px;
+    width: 100%;
+    /* for bigger screens
+     padding-top: 15px;
+    width: 90%;  */
+  }
+
+  .header-descr {
+    font-size: 16px;
+    line-height: 24px;
+
+    /* 
+    for bigger screens
+    font-size: 18px; 
+    line-height: 28px; */
+  }
+
+  .header-form-container {
+    max-width: 100%;
+    width: 100%;
+    padding: 15px 5px 0 5px;
+
+    /* for siz big screens */
+    /* padding: 20px 10px 0 10px; */
+  }
+
+  .header-form {
+    height: 50px;
+    /* for big screen
+      height: 60px; */
+  }
+
+  .placeholder-container {
+    left: 15px;
+    font-size: 14px;
+  }
+
+  .text-darker-gray {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .text-gray {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .header-input-field {
+    height: 50px;
+    padding: 0 0 0 15px;
+    font-size: 14px;
+    line-height: 14px;
+
+    /*  
+    for bigger screen
+    height: 60px; 
+    padding: 0 0 0 20px; 
+    font-size: 14px; 
+    line-height: 14px; */
+  }
+
+  .header-input-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    left: auto;
+    right: 0;
+    padding: 0 15px;
+    /* 
+    for bigger screen
+     width: 60px;
+    height: 60px; 
+    left: auto; 
+    right: 10px;
+    padding: 0 20px;  */
+  }
+}
