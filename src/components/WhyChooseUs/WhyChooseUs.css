@@ -153,127 +153,6 @@
   display: none;
 }
 
-/* @media only screen and (min-width: 320px) and (max-width: 480px) {
-  .why-choose {
-    max-width: 100%;
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .why-vector {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .why-choose-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .why-choose-descr {
-    width: 100%;
-  }
-
-  .why-choose-header {
-    max-width: 100%;
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  .why-choose-descr-container {
-    max-width: 100%;
-    padding-top: 20px;
-  }
-
-  .why-choose-descr-text {
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  .why-choose-us-scroll {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .why-choose-us-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    width: 600px;
-    padding: 20px;
-    margin-top: 20px;
-    overflow-x: hidden;
-  }
-
-  .why-choose-us-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1400px;
-    border-radius: 20px;
-    background: #ffffff;
-    padding-top: 21px;
-    padding-bottom: 20px;
-    padding-left: 29px;
-    box-shadow: 0px 15px 30px 0px #bfb5ff26;
-  }
-
-  .onboard-header {
-    width: 285px;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 32px;
-  }
-
-  .our-benefits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-  }
-
-  .bullet {
-    margin-top: 15px;
-  }
-
-  .bullet-icon {
-    display: block;
-  }
-
-  .benefit-content-text {
-    padding-left: 12px;
-    font-size: 16px;
-    line-height: 28px;
-    white-space: wrap;
-  }
-
-  .learn-more-container {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    max-width: 100%;
-    width: 100%;
-    padding-top: 20px;
-  }
-
-  .why-banner {
-    max-width: 600px;
-    width: 100%;
-    object-fit: contain;
-  }
-} */
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .why-choose {
     max-width: 100%;
@@ -299,7 +178,7 @@
 
   .why-choose-header {
     max-width: 100%;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 32px;
   }
 
@@ -329,7 +208,7 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    width: 600px;
+    width: 100%;
     padding: 20px;
     margin-top: 20px;
     overflow-x: hidden;
@@ -350,11 +229,12 @@
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    padding-left: 14px;
     width: 100%;
   }
 
   .why-menu-item {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
@@ -388,9 +268,9 @@
   }
 
   .load-btn {
-    width: 64px;
-    height: 64px;
-    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
     padding: 0;
     appearance: button;
   }
@@ -403,7 +283,7 @@
 
   .load-text {
     padding-left: 12px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     text-align: left;
