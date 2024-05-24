@@ -254,7 +254,7 @@
   }
 
   .review-info-descr-container {
-    max-width: 100%;
+    max-width: 80%;
     padding-top: 30px;
   }
 
@@ -298,10 +298,10 @@
   }
 
   .review-header {
-    max-width: 300px;
-    font-size: 30px;
+    max-width: 290px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 56px;
     color: #ffffff;
     text-align: left;
   }
@@ -324,7 +324,7 @@
     line-height: 26px;
     text-align: left;
     white-space: wrap;
-    width: 100%;
+    max-width: 90%;
   }
 
   .navigation-button {
@@ -388,7 +388,7 @@
   }
 
   .review-info-descr-container {
-    max-width: 100%;
+    max-width: 90%;
     padding-top: 30px;
   }
 
