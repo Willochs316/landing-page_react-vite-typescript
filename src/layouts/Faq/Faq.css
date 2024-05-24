@@ -11,13 +11,7 @@
 .faq {
   max-width: 100%;
   width: 100%;
-  padding-top: 134px;
-  padding-bottom: 171.5px;
   position: relative;
-  height: auto;
-  background: url("../../assets/images/faq.png") no-repeat center center;
-  background-size: cover;
-  background-color: #f3f3f3;
 }
 
 .faq-container {
@@ -136,6 +130,10 @@
     display: none;
   }
 
+  .isactive-icon {
+    display: none;
+  }
+
   .faq {
     max-width: 100%;
     width: 100%;
@@ -219,6 +217,10 @@
 /* Styles for small devices (phones) */
 @media only screen and (min-width: 480px) and (max-width: 588px) {
   .yellow {
+    display: none;
+  }
+
+  .isactive-icon {
     display: none;
   }
 
@@ -308,6 +310,10 @@
     display: none;
   }
 
+  .isactive-icon {
+    display: none;
+  }
+
   .faq {
     max-width: 100%;
     width: 100%;
@@ -386,8 +392,4 @@
     width: 20px;
     height: 12px;
   }
-}
-
-/* Styles for large devices (desktops) */
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
 }

@@ -4,7 +4,7 @@ import "./Review.css";
 export default function Reviews() {
   return (
     <section className="reviews">
-      {/* <img className="quote" src={Images.quote} alt="" /> */}
+      <img className="quote" src={Images.quote} alt="" />
       <div className="reviews-container">
         <div className="review-content">
           <h2 className="review-header">

@@ -3,6 +3,7 @@
   width: 100%;
   padding: 144px 70px 0 70px;
   position: relative;
+  overflow: hidden;
 }
 
 .start-container {
@@ -11,6 +12,7 @@
   align-items: center;
   max-width: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .start-heading {
@@ -21,9 +23,182 @@
   text-align: center;
 }
 
-.start-menu {
-  padding-top: 40px;
+.start-menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
   position: relative;
+}
+
+.start-menu-evaluate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0px;
+  position: relative;
+}
+
+.start-menu-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0px;
+  position: relative;
+}
+
+.start-menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  height: 387.5px;
+  /* border: 4.66px solid #edefff; */
+  background: url('data:image/svg+xml,<svg width="1300" height="388" viewBox="0 0 1300 388" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1300 341L0 387.5V48L1300 0V341Z" fill="%23EDEFFF"/></svg>');
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  padding-left: 24.62px;
+  padding-right: 36.94px;
+  overflow-y: hidden !important;
+  position: relative;
+}
+
+.start-menu-evaluate-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  height: 387.5px;
+  /* border: 4.66px solid #edefff; */
+  background: url('data:image/svg+xml,<svg width="1300" height="388" viewBox="0 0 1300 388" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1300 341.5L0 388V48.5L1300 0.5V341.5Z" fill="%23FFF7E1"/></svg>');
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  padding-left: 24.62px;
+  padding-right: 36.94px;
+  overflow-y: hidden !important;
+  position: relative;
+}
+
+.start-menu-team-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  height: 387.5px;
+  /* border: 4.66px solid #edefff; */
+  background: url('data:image/svg+xml,<svg width="1300" height="388" viewBox="0 0 1300 388" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1300 341L0 387.5V48L1300 0V341Z" fill="%23F3F3F3"/></svg>');
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  padding-left: 24.62px;
+  padding-right: 36.94px;
+  overflow-y: hidden !important;
+  position: relative;
+}
+
+.start-banner-container {
+  /* width: 466.06px; */
+  height: 387.5px;
+  /* padding-top: 112.78px;
+  padding-bottom: 189.75px;
+ */
+}
+
+.starter-banner-image {
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+.start-number-icon-container {
+  padding-top: 5px;
+}
+
+.start-journey-menu-item {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  overflow: hidden;
+}
+
+.start-number-icon {
+  width: 51.23px;
+  opacity: 0.5px;
+}
+
+.start-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 19.16px;
+}
+
+.start-main-heading {
+  width: 445px;
+  height: 88px;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+}
+
+.start-main-text {
+  width: 407px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 20px;
+  color: #202229cc;
+}
+
+.start-your-journey-now {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.start-your-journey-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: button;
+  outline: none;
+  border: 0;
+  background: #202229;
+  cursor: pointer;
+  width: 49.79px;
+  height: 49.79px;
+  padding: 0px 16.15px 0px 16.82px;
+  border-radius: 20.19px;
+  opacity: 0px;
+}
+
+.start-your-journey-icon {
+  fill: #edefff;
+  color: #edefff;
+  z-index: 1;
+}
+
+.start-your-journey-text {
+  margin-left: 8px;
+  font-size: 14.8px;
+  font-weight: 500;
+  line-height: 12.11px;
+  text-align: left;
+  color: #202229;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 480px) {

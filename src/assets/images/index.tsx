@@ -29,14 +29,15 @@ const Images = {
   groovehq: new URL("./groovehq.png", import.meta.url).href,
   play: new URL("./play.png", import.meta.url).href,
   bluePlay: new URL("./blue-play.png", import.meta.url).href,
-  blueGroup: new URL("./blue-group.png", import.meta.url).href,
-  yellowGroup: new URL("./yellow-group.png", import.meta.url).href,
-  whiteGroup: new URL("./white-group.png", import.meta.url).href,
   frm: new URL("./frm.png", import.meta.url).href,
   risk: new URL("./risk.png", import.meta.url).href,
   book: new URL("./book.png", import.meta.url).href,
   loop: new URL("./loop.png", import.meta.url).href,
   ariana: new URL("./ariana.png", import.meta.url).href,
+  menGroup: new URL("./men-group.png", import.meta.url).href,
+  note: new URL("./note.png", import.meta.url).href,
+  tenTimes: new URL("./10x.png", import.meta.url).href,
+
 };
 
 export default Images;
