@@ -4,6 +4,7 @@ import TechStackMenuItem from "./TechStackMenuItem";
 import DesignTechStackMenuItem from "./DesignStackMenuItem";
 import RateItem from "./RateItem";
 import "./TechStack.css";
+import { Svgs } from "@assets/svgs";
 
 export default function TechStack() {
   return (
@@ -52,6 +53,7 @@ export default function TechStack() {
                     src={item.src}
                     title={item.title}
                     extraClass={item.extraClass}
+                    button={item.button}
                   />
                 ))}
               </div>
@@ -89,6 +91,7 @@ export default function TechStack() {
                     src={item.src}
                     title={item.title}
                     extraClass={item.extraClass}
+                    button={item.button}
                   />
                 ))}
               </div>
@@ -97,7 +100,9 @@ export default function TechStack() {
 
           <div className="explore">
             <div className="explore-conent">
-              <img className="explore-btn" src={Images.roundZwilt} alt="" />
+              <button className="explore-btn">
+                <Svgs.ChevronRight className="explore-icon" />
+              </button>
               <p className="explore-text">Explore More</p>
             </div>
 

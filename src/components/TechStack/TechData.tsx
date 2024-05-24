@@ -1,5 +1,7 @@
 import Images from "@assets/images";
+import { Svgs } from "@assets/svgs";
 
+// IT & Information Stack
 export const techStackItems = [
   { src: Images.shopify, title: "Shopify Developer", extraClass: "" },
   {
@@ -18,12 +20,26 @@ export const techStackItems = [
     title: "Dot Net Developer",
     extraClass: "tech-stack-item",
   },
-  { src: Images.rightZwilt, title: "", extraClass: "tech-stack-item" },
+  {
+    button: (
+      <button className="next-button">
+        <Svgs.ChevronRight />
+      </button>
+    ),
+    extraClass: "tech-stack-item",
+  },
 ];
 
-// Design Tech Stack
+// Design & Creative Stack
 export const designTechStackItems = [
-  { src: Images.leftZwilt, title: "", extraClass: "" },
+  {
+    button: (
+      <button className="prev-button">
+        <Svgs.ChevronLeft />
+      </button>
+    ),
+    extraClass: "",
+  },
   { src: Images.figma, title: "UX Designer", extraClass: "tech-stack-item" },
   {
     src: Images.photoShop,
@@ -39,7 +55,6 @@ export const designTechStackItems = [
   { src: Images.cinema, title: "Cinema 4D", extraClass: "tech-stack-item" },
 ];
 
-// Rate Items
 export const rateItems = [
   { src: Images.medal, text: "989 Skills" },
   { src: Images.category, text: "45 Sub-Categories" },

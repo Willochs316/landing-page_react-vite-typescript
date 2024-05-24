@@ -18,7 +18,7 @@
 .services-tech-stack {
   max-width: 100%;
   width: 100%;
-  background: url('data:image/svg+xml,<svg width="1440" viewBox="0 0 1440 1130" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 50.0002L1440 0V1080.5L0 1130V50.0002Z" fill="%23EDEFFF"/></svg>');
+  background: url('data:image/svg+xml,<svg width="1540" viewBox="0 0 1440 1130" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 50.0002L1440 0V1080.5L0 1130V50.0002Z" fill="%23EDEFFF"/></svg>');
   position: relative;
 }
 
@@ -156,6 +156,30 @@
   text-align: center;
 }
 
+.next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  background: #f7f7f7;
+  border: 2px solid #f6f6f6;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.prev-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  background: #f7f7f7;
+  border: 2px solid #f6f6f6;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
 .explore {
   display: flex;
   align-items: center;
@@ -194,9 +218,24 @@
 }
 
 .explore-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 74px;
   height: 74px;
   appearance: button;
+  outline: none;
+  border: 0;
+  padding: 0px 24px 0px 25px;
+  border-radius: 30px;
+  background: #202229;
+  cursor: pointer;
+}
+
+.explore-icon {
+  fill: #edefff;
+  color: #edefff;
+  z-index: 1;
 }
 
 .explore-more-text {
@@ -341,399 +380,12 @@
 
 /* Styles for small devices (phones) */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .services-tech-stack {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .services-tech-stack-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 60px;
-  }
-
-  .services-tech-stack-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .services-tech-stack-header {
-    max-width: 90%;
-    width: 100%;
-    text-align: center;
-  }
-
-  .services-tech-stack-header-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
-    text-align: center;
-  }
-
-  .services-tech-stack-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-    width: 100%;
-  }
-
-  .services-tech-stack__heading {
-    max-width: 90%;
-    width: 100%;
-    padding-top: 40px;
-    text-align: left;
-  }
-
-  .services-tech-stack__heading-title {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .services-tech-stack-main {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: #ffffff;
-    margin-top: 20px;
-    overflow-x: hidden;
-  }
-
-  .services-tech-stack-main-header {
-    padding-top: 12px;
-    padding-left: 15px;
-    width: 100%;
-  }
-
-  .services-tech-stack-menu {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 12px;
-  }
-
-  .services-tech-image {
-    width: 64px;
-    height: 64px;
-  }
-
-  .tech-stack-item {
-    padding: 10px;
-  }
-
-  .services-tech-stack-menu-title {
-    padding-top: 8px;
-    width: auto;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-  }
-
-  .explore {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 20px 0;
-    width: 100%;
-  }
-
-  .explore-btn {
-    width: 60px;
-    height: 60px;
-    appearance: button;
-  }
-
-  .explore-more {
-    max-width: 90%;
-    width: 100%;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .explore-more-text {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
 }
 
 /* Styles for medium devices (tablets) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .services-tech-stack {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .services-tech-stack-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 60px;
-  }
-
-  .services-tech-stack-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .services-tech-stack-header {
-    max-width: 90%;
-    width: 100%;
-    text-align: center;
-  }
-
-  .services-tech-stack-header-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
-    text-align: center;
-  }
-
-  .services-tech-stack-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-    width: 100%;
-  }
-
-  .services-tech-stack__heading {
-    max-width: 90%;
-    width: 100%;
-    padding-top: 40px;
-    text-align: left;
-  }
-
-  .services-tech-stack__heading-title {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .services-tech-stack-main {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: #ffffff;
-    margin-top: 20px;
-    overflow-x: hidden;
-  }
-
-  .services-tech-stack-main-header {
-    padding-top: 12px;
-    padding-left: 15px;
-    width: 100%;
-  }
-
-  .services-tech-stack-menu {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 12px;
-  }
-
-  .services-tech-image {
-    width: 64px;
-    height: 64px;
-  }
-
-  .tech-stack-item {
-    padding: 10px;
-  }
-
-  .services-tech-stack-menu-title {
-    padding-top: 8px;
-    width: auto;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-  }
-
-  .explore {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 20px 0;
-    width: 100%;
-  }
-
-  .explore-btn {
-    width: 60px;
-    height: 60px;
-    appearance: button;
-  }
-
-  .explore-more {
-    max-width: 90%;
-    width: 100%;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .explore-more-text {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
 }
 
 /* Styles for large devices (desktops) */
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .services-tech-stack {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .services-tech-stack-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 80px;
-    padding-bottom: 60px;
-  }
-
-  .services-tech-stack-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .services-tech-stack-header {
-    max-width: 90%;
-    width: 100%;
-    text-align: center;
-  }
-
-  .services-tech-stack-header-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 36px;
-    text-align: center;
-  }
-
-  .services-tech-stack-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-    width: 100%;
-  }
-
-  .services-tech-stack__heading {
-    max-width: 90%;
-    width: 100%;
-    padding-top: 40px;
-    text-align: left;
-  }
-
-  .services-tech-stack__heading-title {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .services-tech-stack-main {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: #ffffff;
-    margin-top: 20px;
-    overflow-x: hidden;
-  }
-
-  .services-tech-stack-main-header {
-    padding-top: 15px;
-    padding-left: 18px;
-    width: 100%;
-  }
-
-  .services-tech-stack-menu {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 18px;
-  }
-
-  .services-tech-image {
-    width: 72px;
-    height: 72px;
-  }
-
-  .tech-stack-item {
-    padding: 10px;
-  }
-
-  .services-tech-stack-menu-title {
-    padding-top: 8px;
-    width: auto;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-  }
-
-  .explore {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 20px 0;
-    width: 100%;
-  }
-
-  .explore-btn {
-    width: 60px;
-    height: 60px;
-    appearance: button;
-  }
-
-  .explore-more {
-    max-width: 90%;
-    width: 100%;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .explore-more-text {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
 }

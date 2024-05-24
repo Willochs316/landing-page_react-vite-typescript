@@ -17,7 +17,6 @@ const Images = {
   medal: new URL("./medal.png", import.meta.url).href,
   category: new URL("./category.png", import.meta.url).href,
   profile: new URL("./profile.png", import.meta.url).href,
-  roundZwilt: new URL("./round-zwilt.png", import.meta.url).href,
   halfTopBlue: new URL("./half-top-blue.png", import.meta.url).href,
   halfBottomBlue: new URL("./half-btm-blue.png", import.meta.url).href,
   footerRect: new URL("./footer-rectangle.png", import.meta.url).href,
