@@ -199,7 +199,7 @@
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 615px) {
   .service {
     padding-top: 25px;
     position: relative;
@@ -272,5 +272,82 @@
   .service-menu-small {
     width: 100%;
     padding-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 615px) and (max-width: 1024px) {
+  .service {
+    padding-top: 25px;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .service-tagline {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f2f2f2;
+  }
+
+  .service-technology {
+    width: 90%;
+    height: 40px;
+    padding: 8px 20px;
+  }
+
+  .service-design {
+    width: 90%;
+    height: 40px;
+    padding: 8px 20px;
+  }
+
+  .service-title {
+    font-size: 14px;
+    line-height: normal;
+    text-align: center !important;
+  }
+
+  .service-menu {
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .service-menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+  }
+
+  .service-menu-item {
+    font-size: 15px;
+    width: 100%;
+    /* for big screen 16px */
+  }
+
+  .service-list {
+    width: 100%;
+    padding-top: 16px;
+  }
+
+  .service-list.first-child {
+    padding-top: 16px;
+  }
+
+  .service-menu-small {
+    width: 100%;
+    padding-top: 0;
   }
 }
