@@ -36,6 +36,7 @@ const Images = {
   risk: new URL("./risk.png", import.meta.url).href,
   book: new URL("./book.png", import.meta.url).href,
   loop: new URL("./loop.png", import.meta.url).href,
+  ariana: new URL("./ariana.png", import.meta.url).href,
 };
 
 export default Images;

@@ -1,6 +1,6 @@
 import Images from "@assets/images";
+import ClientsContent from "./ClientsContent/ClientsContent";
 import "./Faq.css";
-import { Svgs } from "@assets/svgs";
 
 export default function Faq() {
   return (
@@ -9,46 +9,51 @@ export default function Faq() {
         <h2 className="faq-header">Frequently asked questions</h2>
 
         <div className="faq-content">
+          {/* <ClientsContent /> */}
           <div className="faq-items">
             <div className="faq-item">
               <span className="faq-title">General</span>
             </div>
 
             <div className="faq-descr">
-              <span className="faq-descr-content">
+              {/* <span className="faq-descr-content">
                 I want to work part-time, is that possible
-              </span>
+              </span> */}
             </div>
           </div>
 
           <div className="faq-items">
             <div className="faq-descr">
-              <span className="faq-descr-content">
+              {/* <span className="faq-descr-content">
                 How long are the average projects?
-              </span>
+              </span> */}
             </div>
           </div>
 
-          <div className="faq-items faq-bg">
+          <div className="faq-items faqActive">
             <div className="faq-descr">
-              <span className="faq-descr-content faq-bold">
+              {/* <span className="faq-descr-content faq-bold">
                 How does the payment works?
-              </span>
+              </span> */}
             </div>
 
-            <div className="isactive-icon">
-              <Svgs.ChevronRight className="yellow" />
+            <div className="yellow-zwilt">
+              <img
+                className="yellow-zwilt-img"
+                src={Images.yellowZwilt}
+                alt=""
+              />
             </div>
           </div>
 
           <div className="faq-items">
             <div className="faq-descr">
-              <span className="faq-descr-content">How much can I earn?</span>
+              {/* <span className="faq-descr-content">How much can I earn?</span> */}
             </div>
           </div>
 
           <div className="faq-items">
-            <div className="faq-item faq-bg">
+            <div className="faq-item faqActive">
               <span className="faq-title">General</span>
             </div>
 
@@ -57,30 +62,30 @@ export default function Faq() {
             </div>
 
             <div className="faq-descr">
-              <span className="faq-descr-content">
+              {/* <span className="faq-descr-content">
                 I want to work part-time, is that possible
-              </span>
+              </span> */}
             </div>
           </div>
 
           <div className="faq-items">
             <div className="faq-descr">
-              <span className="faq-descr-content">
+              {/* <span className="faq-descr-content">
                 How long are the average projects?
-              </span>
+              </span> */}
             </div>
           </div>
 
           <div className="faq-items">
             <div className="faq-descr">
-              <span className="faq-descr-content">
+              {/* <span className="faq-descr-content">
                 How long are the average projects?
-              </span>
+              </span> */}
             </div>
           </div>
-          <div className="faq-items faq-item-bt">
+          <div className="faq-items faq-item-border-btm">
             <div className="faq-descr">
-              <span className="faq-descr-content">How much can I earn?</span>
+              {/* <span className="faq-descr-content">How much can I earn?</span> */}
             </div>
           </div>
         </div>

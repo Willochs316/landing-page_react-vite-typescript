@@ -1,5 +1,7 @@
-import Images from "@assets/images";
+// import Images from "@assets/images";
+import { Svgs } from "@assets/svgs";
 import "./WhyChooseUs.css";
+import Images from "@assets/images";
 
 export default function WhyChooseUs() {
   return (
@@ -17,9 +19,48 @@ export default function WhyChooseUs() {
         </div>
 
         <div className="why-choose-us-scroll">
-          <img className="why-choose-us-banner" src={Images.risk} alt="" />
-          <img className="why-choose-us-banner" src={Images.book} alt="" />
-          <img className="why-choose-us-banner" src={Images.loop} alt="" />
+          <div className="why-choose-us-item">
+            <div className="">
+              <h2 className="onboard-header">Onboard without the risk.</h2>
+
+              <div className="our-benefits">
+                <div className="benefit-content">
+                  <Svgs.Bullet />
+
+                  <p className="benefit-content-text">
+                    <span> We pick the best for you to select.</span>
+                  </p>
+                </div>
+
+                <div className="benefit-content">
+                  <Svgs.Bullet />
+
+                  <p className="benefit-content-text">
+                    <span>
+                      Thousands of vetted candidates in dozens of categories.
+                    </span>
+                  </p>
+                </div>
+
+                <div className="benefit-content">
+                  <Svgs.Bullet />
+
+                  <p className="benefit-content-text">
+                    <span>Risk-free resource swapping for the best fit.</span>
+                  </p>
+                </div>
+              </div>
+
+              <div className="learn-more-container">
+                <button className="load-btn">
+                  <Svgs.ChevronRight className="load-icon" />
+                </button>
+                <p className="load-text">Learn More</p>
+              </div>
+            </div>
+
+            <img className="why-banner" src={Images.ariana} alt="" />
+          </div>
         </div>
       </div>
     </section>

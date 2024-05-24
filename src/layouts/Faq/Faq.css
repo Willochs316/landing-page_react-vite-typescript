@@ -4,6 +4,16 @@
   padding-top: 134px;
   padding-bottom: 171.5px;
   position: relative;
+  background: url('data:image/svg+xml,<svg width="1440" height="1344" viewBox="0 0 1440 1344" fill="#FFBE2E" xmlns="http://www.w3.org/2000/svg"><path d="M0 69L1440 0V1278.5L0 1343.5V69Z" fill="%23F3F3F3"/></svg>');
+  background-color: #f3f3f3;
+}
+
+.faq {
+  max-width: 100%;
+  width: 100%;
+  padding-top: 134px;
+  padding-bottom: 171.5px;
+  position: relative;
   height: auto;
   background: url("../../assets/images/faq.png") no-repeat center center;
   background-size: cover;
@@ -100,9 +110,18 @@
   padding-right: 90.99px;
 }
 
-.yellow-zwilt-img {
+.isactive-icon {
   width: 26.06px;
-  height: 15.63px;
+  padding-right: 89.94px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto 0;
+}
+
+.yellow {
+  width: 26.06px;
+  color: #ffbe2e;
+  fill: #ffbe2e;
 }
 
 .faq-icon {
@@ -113,6 +132,10 @@
 }
 
 @media only screen and (min-width: 150px) and (max-width: 480px) {
+  .yellow {
+    display: none;
+  }
+
   .faq {
     max-width: 100%;
     width: 100%;
@@ -126,7 +149,7 @@
   }
 
   .faq-header {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 36px;
   }
 
@@ -194,7 +217,11 @@
 }
 
 /* Styles for small devices (phones) */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 588px) {
+  .yellow {
+    display: none;
+  }
+
   .faq {
     max-width: 100%;
     width: 100%;
@@ -208,7 +235,7 @@
   }
 
   .faq-header {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 36px;
   }
 
@@ -276,7 +303,11 @@
 }
 
 /* Styles for medium devices (tablets) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 588px) and (max-width: 1024px) {
+  .yellow {
+    display: none;
+  }
+
   .faq {
     max-width: 100%;
     width: 100%;
@@ -290,7 +321,7 @@
   }
 
   .faq-header {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 36px;
   }
 
@@ -359,81 +390,4 @@
 
 /* Styles for large devices (desktops) */
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .faq {
-    max-width: 100%;
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 120px;
-  }
-
-  .faq-icon {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .faq-header {
-    font-size: 32px;
-    line-height: 36px;
-  }
-
-  .faq-content {
-    padding-top: 40px;
-    width: 100%;
-  }
-
-  .faq-items {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .faq-item {
-    border-right: none;
-    padding: 20px 20px;
-    text-align: center;
-    border-right: 1px solid #d6d6d6;
-  }
-
-  .faq-item-inner {
-    border-right: 1px solid #d6d6d6;
-    padding: 20px 20px;
-    text-align: center;
-  }
-
-  .faq-title {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .faq-descr {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-
-  .faq-descr-content {
-    font-size: 18px;
-    opacity: 0.8px;
-  }
-
-  .faq-bold {
-    font-size: 18px;
-  }
-
-  .yellow-zwilt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 16px;
-  }
-
-  .yellow-zwilt-img {
-    width: 20px;
-    height: 12px;
-  }
 }
