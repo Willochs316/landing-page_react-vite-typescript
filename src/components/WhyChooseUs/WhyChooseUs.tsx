@@ -1,4 +1,3 @@
-// import Images from "@assets/images";
 import { Svgs } from "@assets/svgs";
 import "./WhyChooseUs.css";
 import Images from "@assets/images";
@@ -20,12 +19,24 @@ export default function WhyChooseUs() {
 
         <div className="why-choose-us-scroll">
           <div className="why-choose-us-item">
-            <div className="">
+            <div className="why-choose-us-item-container">
               <h2 className="onboard-header">Onboard without the risk.</h2>
+
+              <ul className="why-menu-container">
+                <li className="why-menu-item">
+                  We pick the best for you to select.
+                </li>
+                <li className="why-menu-item">
+                  Thousands of vetted candidates in dozens of categories.
+                </li>
+                <li className="why-menu-item">
+                  Thousands of vetted candidates in dozens of categories.
+                </li>
+              </ul>
 
               <div className="our-benefits">
                 <div className="benefit-content">
-                  <Svgs.Bullet />
+                  <Svgs.Bullet className="bullet-icon" />
 
                   <p className="benefit-content-text">
                     <span> We pick the best for you to select.</span>
@@ -33,7 +44,7 @@ export default function WhyChooseUs() {
                 </div>
 
                 <div className="benefit-content">
-                  <Svgs.Bullet />
+                  <Svgs.Bullet className="bullet-icon" />
 
                   <p className="benefit-content-text">
                     <span>
@@ -43,7 +54,7 @@ export default function WhyChooseUs() {
                 </div>
 
                 <div className="benefit-content">
-                  <Svgs.Bullet />
+                  <Svgs.Bullet className="bullet-icon" />
 
                   <p className="benefit-content-text">
                     <span>Risk-free resource swapping for the best fit.</span>
