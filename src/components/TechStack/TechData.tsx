@@ -38,7 +38,7 @@ export const designTechStackItems = [
         <Svgs.ChevronLeft />
       </button>
     ),
-    extraClass: "",
+    extraClass: "tech-stack-item",
   },
   { src: Images.figma, title: "UX Designer", extraClass: "tech-stack-item" },
   {
