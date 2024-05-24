@@ -10,12 +10,10 @@ export default function Reviews() {
           <h2 className="review-header">
             How it worked for Jason{" "}
             <span>
-              <img src={Images.jason} alt="" />
+              <img className="review-image" src={Images.jason} alt="" />
             </span>{" "}
-            at{" "}
-            <span>
-              <img className="groove" src={Images.groove} alt="" />
-            </span>
+            at &nbsp;
+            <img className="groove" src={Images.groove} alt="" />
           </h2>
 
           <p className="review-descr">
