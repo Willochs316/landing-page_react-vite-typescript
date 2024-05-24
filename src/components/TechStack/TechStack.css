@@ -122,7 +122,7 @@
 .services-tech-stack-menu {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   padding-top: 15px;
   padding-right: 26px;
@@ -415,7 +415,7 @@
 }
 
 /* Styles for small devices (phones) */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 645px) {
   .service-stripe {
     max-width: 100%;
     width: 100%;
@@ -582,7 +582,7 @@
 }
 
 /* Styles for medium devices (tablets) */
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+@media only screen and (min-width: 646px) and (max-width: 835px) {
   .service-stripe {
     max-width: 100%;
     width: 100%;
@@ -667,8 +667,7 @@
 
   .services-tech-stack-menu {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
@@ -748,8 +747,8 @@
   }
 }
 
-/* Styles for large devices (desktops) */
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+/* Styles for medium devices (tablets) */
+@media only screen and (min-width: 835px) and (max-width: 1024px) {
   .service-stripe {
     max-width: 100%;
     width: 100%;
@@ -767,13 +766,13 @@
   }
 
   .services-tech-stack-header {
-    max-width: 790px;
+    max-width: 580px;
     width: 100%;
   }
 
   .services-tech-stack-header-title {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .services-tech-stack-section {
@@ -801,7 +800,7 @@
   }
 
   .services-tech-stack__heading-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
@@ -834,8 +833,7 @@
 
   .services-tech-stack-menu {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
@@ -843,12 +841,12 @@
   }
 
   .services-tech-image {
-    width: 72px;
-    height: 72px;
+    width: 64px;
+    height: 64px;
   }
 
   .tech-stack-item {
-    padding: 16px;
+    padding: 14px;
   }
 
   .services-tech-stack-menu-title {
