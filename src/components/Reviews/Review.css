@@ -148,7 +148,7 @@
   .reviews-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     max-width: 100%;
     width: 100%;
@@ -164,10 +164,10 @@
   }
 
   .review-header {
-    max-width: 250px;
-    font-size: 24px;
+    max-width: 235px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 45px;
     color: #ffffff;
     text-align: left;
   }
@@ -178,7 +178,7 @@
   }
 
   .groove {
-    width: 80px;
+    width: 110px;
     height: auto;
     object-fit: contain;
   }
@@ -190,7 +190,7 @@
     line-height: 26px;
     text-align: left;
     white-space: wrap;
-    width: 100%;
+    max-width: 350px;
   }
 
   .navigation-button {
@@ -312,7 +312,7 @@
   }
 
   .groove {
-    width: 80px;
+    width: 110px;
     height: auto;
     object-fit: contain;
   }
@@ -446,7 +446,7 @@
   }
 
   .groove {
-    width: 80px;
+    width: 110px;
     height: auto;
     object-fit: contain;
   }

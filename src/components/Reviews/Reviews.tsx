@@ -8,11 +8,9 @@ export default function Reviews() {
       <div className="reviews-container">
         <div className="review-content">
           <h2 className="review-header">
-            How it worked for Jason{" "}
-            <span>
-              <img className="review-image" src={Images.jason} alt="" />
-            </span>{" "}
-            at &nbsp;
+            How it worked for Jason&nbsp;
+            <img className="review-image" src={Images.jason} alt="" />
+            &nbsp;at&nbsp;
             <img className="groove" src={Images.groove} alt="" />
           </h2>
 
