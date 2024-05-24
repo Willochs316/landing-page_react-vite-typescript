@@ -18,6 +18,8 @@
 .services-tech-stack {
   max-width: 100%;
   width: 100%;
+  padding-top: 219px;
+  padding-bottom: 148px;
   background: url('data:image/svg+xml,<svg width="1540" viewBox="0 0 1440 1130" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 50.0002L1440 0V1080.5L0 1130V50.0002Z" fill="%23EDEFFF"/></svg>');
   position: relative;
 }
@@ -28,8 +30,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 183px;
-  padding-bottom: 127px;
+  /* padding-top: 183px;
+  padding-bottom: 127px; */
   position: relative;
 }
 
@@ -148,12 +150,14 @@
 }
 
 .services-tech-stack-menu-title {
-  padding-top: 12px;
+  margin-top: 12px;
   width: 81px;
-  font-size: 14px;
+  font-style: normal;
   font-weight: 600;
+  font-size: 14px;
   line-height: 18px;
   text-align: center;
+  color: #202229;
 }
 
 .next-button {
