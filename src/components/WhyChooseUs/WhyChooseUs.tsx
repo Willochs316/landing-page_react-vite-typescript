@@ -1,62 +1,52 @@
 import { Svgs } from "@assets/svgs";
-import "./WhyChooseUs.css";
 import Images from "@assets/images";
+import "./WhyChooseUs.css";
 
 export default function WhyChooseUs() {
   return (
-    <section className="why-choose">
-      <div className="why-choose-content">
-        <div className="why-choose-descr">
-          <h2 className="why-choose-header">Why choose Zwilt?</h2>
+    <section className="why-choose-us">
+      <div className="why-choose-us-content">
+        <div className="why-choose-us-heading">
+          <h2 className="why-choose-us-heading-title">Why choose Zwilt?</h2>
 
-          <div className="why-choose-descr-container">
-            <p className="why-choose-descr-text">
+          <div className="why-choose-us-descr-container">
+            <p className="why-choose-us-descr-text">
               We take complex hiring processes - and simplify them. Connecting
               you to the world&apos;s highly qualified talent pool.
             </p>
           </div>
         </div>
 
-        <div className="why-choose-us-scroll">
+        <div className="why-choose-us-hero-container">
           <div className="why-choose-us-item">
-            <div className="why-choose-us-item-container">
-              <h2 className="onboard-header">Onboard without the risk.</h2>
+            <div className="why-choose-us-hero-item-container">
+              <h2 className="why-choose-us-hero-item-title">
+                Onboard without the risk.
+              </h2>
 
-              <ul className="why-menu-container">
-                <li className="why-menu-item">
-                  We pick the best for you to select.
-                </li>
-                <li className="why-menu-item">
-                  Thousands of vetted candidates in dozens of categories.
-                </li>
-                <li className="why-menu-item">
-                  Thousands of vetted candidates in dozens of categories.
-                </li>
-              </ul>
-
-              <div className="our-benefits">
-                <div className="benefit-content">
+              <div className="why-choose-us-hero-item-content">
+                <div className="why-choose-us-hero-item-content-list">
                   <Svgs.Bullet className="bullet-icon" />
 
-                  <p className="benefit-content-text">
+                  <p className="why-choose-us-hero-item-content-list-text">
                     <span> We pick the best for you to select.</span>
                   </p>
                 </div>
 
-                <div className="benefit-content">
+                <div className="why-choose-us-hero-item-content-list">
                   <Svgs.Bullet className="bullet-icon" />
 
-                  <p className="benefit-content-text">
+                  <p className="why-choose-us-hero-item-content-list-text">
                     <span>
                       Thousands of vetted candidates in dozens of categories.
                     </span>
                   </p>
                 </div>
 
-                <div className="benefit-content">
+                <div className="why-choose-us-hero-item-content-list">
                   <Svgs.Bullet className="bullet-icon" />
 
-                  <p className="benefit-content-text">
+                  <p className="why-choose-us-hero-item-content-list-text">
                     <span>Risk-free resource swapping for the best fit.</span>
                   </p>
                 </div>
@@ -70,7 +60,7 @@ export default function WhyChooseUs() {
               </div>
             </div>
 
-            <img className="why-banner" src={Images.ariana} alt="" />
+            <img className="why-hero-image" src={Images.ariana} alt="" />
           </div>
         </div>
       </div>
