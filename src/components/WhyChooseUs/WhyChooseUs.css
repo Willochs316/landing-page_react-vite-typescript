@@ -143,7 +143,7 @@
   color: #202229;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 150px) and (max-width: 480px) {
   .why-choose-us {
     max-width: 100%;
     width: 100%;
@@ -266,6 +266,250 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+  .why-choose-us {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .why-choose-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .why-choose-us-heading {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .why-choose-us-heading-title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  .why-choose-us-descr-container {
+    width: 326px;
+    padding-top: 20px;
+  }
+
+  .why-choose-us-descr-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .why-choose-us-hero-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 22px;
+    overflow-x: hidden;
+  }
+
+  .why-choose-us-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    border-radius: 4px;
+    background: 0 0;
+    padding-top: 29px;
+    padding-bottom: 31px;
+    padding-left: 0px;
+  }
+
+  .why-choose-us-hero-item-title {
+    width: 288px;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: left;
+    color: #202229;
+  }
+
+  .why-choose-us-hero-item-content {
+    padding-top: 20px;
+    width: 100%;
+    white-space: wrap;
+  }
+
+  .why-choose-us-hero-item-content-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .bullet-icon {
+    width: 16px;
+    height: 5px;
+    border-radius: 21px 0px 0px 0px;
+  }
+
+  .why-choose-us-hero-item-content-list-text {
+    padding-left: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    white-space: wrap;
+  }
+
+  .learn-more-container {
+    padding-top: 20px;
+  }
+
+  .load-btn {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: button;
+    outline: none;
+    border: 0;
+    background: #202229;
+    cursor: pointer;
+    width: 49.79px;
+    height: 49.79px;
+    padding: 0px 16.15px 0px 16.82px;
+    border-radius: 20.19px;
+  }
+
+  .load-text {
+    padding-left: 12px;
+    font-size: 14.8px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .why-choose-us {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .why-choose-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .why-choose-us-heading {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .why-choose-us-heading-title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  .why-choose-us-descr-container {
+    width: 326px;
+    padding-top: 20px;
+  }
+
+  .why-choose-us-descr-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .why-choose-us-hero-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 22px;
+    overflow-x: hidden;
+  }
+
+  .why-choose-us-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    border-radius: 4px;
+    background: 0 0;
+    padding-top: 29px;
+    padding-bottom: 31px;
+    padding-left: 0px;
+  }
+
+  .why-choose-us-hero-item-title {
+    width: 288px;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: left;
+    color: #202229;
+  }
+
+  .why-choose-us-hero-item-content {
+    padding-top: 20px;
+    width: 100%;
+    white-space: wrap;
+  }
+
+  .why-choose-us-hero-item-content-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .bullet-icon {
+    width: 16px;
+    height: 5px;
+    border-radius: 21px 0px 0px 0px;
+  }
+
+  .why-choose-us-hero-item-content-list-text {
+    padding-left: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    white-space: wrap;
+  }
+
+  .learn-more-container {
+    padding-top: 20px;
+  }
+
+  .load-btn {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: button;
+    outline: none;
+    border: 0;
+    background: #202229;
+    cursor: pointer;
+    width: 49.79px;
+    height: 49.79px;
+    padding: 0px 16.15px 0px 16.82px;
+    border-radius: 20.19px;
+  }
+
+  .load-text {
+    padding-left: 12px;
+    font-size: 14.8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
   .why-choose-us {
     max-width: 100%;
     width: 100%;
