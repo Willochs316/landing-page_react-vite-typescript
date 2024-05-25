@@ -283,7 +283,7 @@
   }
 
   .footer-heading {
-    max-width: 100%;
+    width: 300px;
     margin: 0 auto;
     text-align: center;
     padding-top: 60px;
@@ -451,7 +451,7 @@
   }
 
   .footer-heading {
-    max-width: 90%;
+    width: 460px;
     margin: 0 auto;
     text-align: center;
     padding-top: 60px;
@@ -619,14 +619,14 @@
   }
 
   .footer-heading {
-    max-width: 100%;
+    width: 620px;
     margin: 0 auto;
     text-align: center;
     padding-top: 60px;
   }
 
   .footer-heading-title {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 1.5;
     text-align: center;
   }
@@ -781,14 +781,14 @@
   }
 
   .footer-heading {
-    max-width: 100%;
+    width: 620px;
     margin: 0 auto;
     text-align: center;
     padding-top: 60px;
   }
 
   .footer-heading-title {
-    font-size: 38px;
+    font-size: 40px;
     line-height: 1.5;
     text-align: center;
   }
