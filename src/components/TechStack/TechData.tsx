@@ -3,7 +3,11 @@ import { Svgs } from "@assets/svgs";
 
 // IT & Information Stack
 export const techStackItems = [
-  { src: Images.shopify, title: "Shopify Developer", extraClass: "" },
+  {
+    src: Images.shopify,
+    title: "Shopify Developer",
+    extraClass: "shopify-developer-mobile",
+  },
   {
     src: Images.magento,
     title: "Magento Developer",
@@ -39,7 +43,7 @@ export const designTechStackItems = [
         <Svgs.ChevronLeft />
       </button>
     ),
-    extraClass: "",
+    extraClass: "prev-button-mobile",
     buttonClass: "tech-btn-class",
   },
   { src: Images.figma, title: "UX Designer", extraClass: "tech-stack-item" },

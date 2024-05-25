@@ -346,6 +346,11 @@
     height: 64px;
   }
 
+  .shopify-developer-mobile,
+  .prev-button-mobile {
+    padding: 12px;
+  }
+
   .tech-stack-item {
     padding: 12px;
   }
@@ -513,6 +518,11 @@
     height: 64px;
   }
 
+  .shopify-developer-mobile,
+  .prev-button-mobile {
+    padding: 12px;
+  }
+
   .tech-stack-item {
     padding: 12px;
   }
@@ -582,7 +592,7 @@
 }
 
 /* Styles for medium devices (tablets) */
-@media only screen and (min-width: 646px) and (max-width: 835px) {
+@media only screen and (min-width: 646px) and (max-width: 1024px) {
   .service-stripe {
     max-width: 100%;
     width: 100%;
@@ -648,8 +658,9 @@
 
   .services-tech-stack-main {
     display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
     max-width: 100%;
     width: 100%;
     height: 100%;
@@ -668,174 +679,7 @@
   .services-tech-stack-menu {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 15px;
-  }
-
-  .services-tech-image {
-    width: 64px;
-    height: 64px;
-  }
-
-  .tech-stack-item {
-    padding: 14px;
-  }
-
-  .services-tech-stack-menu-title {
-    padding-top: 8px;
-    width: auto;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-  }
-
-  .next-button {
-    width: 64px;
-    height: 64px;
-    border-radius: 20px;
-  }
-
-  .prev-button {
-    width: 64px;
-    height: 64px;
-    border-radius: 20px;
-  }
-
-  .explore {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 40px 0px 0;
-    width: 100%;
-  }
-
-  .explore-btn {
-    width: 64px;
-    height: 64px;
-    border-radius: 15px;
-    padding: 0;
-    appearance: button;
-  }
-
-  .explore-icon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .explore-more {
-    max-width: 90%;
-    width: 100%;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .explore-text {
-    padding-left: 12px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.4px;
-    white-space: nowrap;
-  }
-
-  .explore-more-text {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
-}
-
-/* Styles for medium devices (tablets) */
-@media only screen and (min-width: 835px) and (max-width: 1024px) {
-  .service-stripe {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .stripe-container {
-    display: none;
-  }
-
-  .services-tech-stack {
-    max-width: 100%;
-    width: 100%;
-    padding: 60px 20px 40px;
-    background: #edefff;
-  }
-
-  .services-tech-stack-header {
-    max-width: 580px;
-    width: 100%;
-  }
-
-  .services-tech-stack-header-title {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .services-tech-stack-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .services-tech-stack-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-    width: 100%;
-  }
-
-  .services-tech-stack__heading {
-    max-width: 100%;
-    width: 100%;
-    padding-top: 40px;
-    text-align: left;
-  }
-
-  .services-tech-stack__heading-title {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .services-tech-stack-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .services-tech-stack-main {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background: #ffffff;
-    margin-top: 20px;
-    overflow-x: hidden;
-  }
-
-  .services-tech-stack-main-header {
-    padding-top: 15px;
-    padding-left: 20px;
-    width: 100%;
-  }
-
-  .services-tech-stack-menu {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
     padding: 15px;
   }
@@ -845,6 +689,11 @@
     height: 64px;
   }
 
+  .shopify-developer-mobile,
+  .prev-button-mobile {
+    padding: 14px;
+  }
+
   .tech-stack-item {
     padding: 14px;
   }
@@ -852,7 +701,7 @@
   .services-tech-stack-menu-title {
     padding-top: 8px;
     width: auto;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     text-align: center;
   }
