@@ -1,10 +1,10 @@
 import Images from "@assets/images";
+import { Svgs } from "@assets/svgs";
 import { designTechStackItems, rateItems, techStackItems } from "./TechData";
 import TechStackMenuItem from "./TechStackMenuItem";
 import DesignTechStackMenuItem from "./DesignStackMenuItem";
 import RateItem from "./RateItem";
 import "./TechStack.css";
-import { Svgs } from "@assets/svgs";
 
 export default function TechStack() {
   return (
