@@ -1,5 +1,7 @@
 import { Svgs } from "@assets/svgs";
 import Images from "@assets/images";
+import Typography from "@commons/Typography";
+import { listItems } from "./WhyChooseData";
 import "./WhyChooseUs.css";
 
 export default function WhyChooseUs() {
@@ -10,10 +12,11 @@ export default function WhyChooseUs() {
           <h2 className="why-choose-us-heading-title">Why choose Zwilt?</h2>
 
           <div className="why-choose-us-descr-container">
-            <p className="why-choose-us-descr-text">
-              We take complex hiring processes - and simplify them. Connecting
-              you to the world&apos;s highly qualified talent pool.
-            </p>
+            <Typography
+              className="why-choose-us-descr-text"
+              text="We take complex hiring processes - and simplify them. Connecting
+              you to the world's highly qualified talent pool."
+            />
           </div>
         </div>
 
@@ -25,31 +28,17 @@ export default function WhyChooseUs() {
               </h2>
 
               <div className="why-choose-us-hero-item-content">
-                <div className="why-choose-us-hero-item-content-list">
-                  <Svgs.Bullet className="bullet-icon" />
-
-                  <p className="why-choose-us-hero-item-content-list-text">
-                    <span> We pick the best for you to select.</span>
-                  </p>
-                </div>
-
-                <div className="why-choose-us-hero-item-content-list">
-                  <Svgs.Bullet className="bullet-icon" />
-
-                  <p className="why-choose-us-hero-item-content-list-text">
-                    <span>
-                      Thousands of vetted candidates in dozens of categories.
-                    </span>
-                  </p>
-                </div>
-
-                <div className="why-choose-us-hero-item-content-list">
-                  <Svgs.Bullet className="bullet-icon" />
-
-                  <p className="why-choose-us-hero-item-content-list-text">
-                    <span>Risk-free resource swapping for the best fit.</span>
-                  </p>
-                </div>
+                {listItems.map((item, index) => (
+                  <div
+                    key={index}
+                    className="why-choose-us-hero-item-content-list"
+                  >
+                    <Svgs.Bullet className="bullet-icon" />
+                    <p className="why-choose-us-hero-item-content-list-text">
+                      <span>{item}</span>
+                    </p>
+                  </div>
+                ))}
               </div>
 
               <div className="learn-more-container">
