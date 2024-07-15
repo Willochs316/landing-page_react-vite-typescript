@@ -54,8 +54,8 @@ To get started with the development environment, follow these steps:
 1. Clone the repository:
 
 ```javascript
-git clone https://github.com/Willochs316/React.Js-Evaluation-Round-2.git
-cd React.Js-Evaluation-Round-2
+git clone https://github.com/Willochs316/landing-page_react-vite-typescript.git
+cd landing-page_react-vite-typescript.git
 ```
 
 2. Install dependencies:
